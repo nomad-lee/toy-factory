@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "lR+duvPdfMkYL06sK/jQsIwTdbPcdzppWrdGNma1a3yXH+FvdFuZSm0u85NQzO5AEfRcTm/4mMMHGwxtJN0ieQ==",
+  "dgSpecHash": "kWvJNH0Q7noMUqyZbt8utqyAbfpMg38QdvCCuVZzMpehvRsw+TawdK0jFfoux4zn5DPBNKgkSflr4gIKEJsNYQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Joon\\source\\repos\\toy-factory\\BaseProject\\BaseProject\\BaseProject.csproj",
+  "projectFilePath": "C:\\Users\\Joon\\Source\\Repos\\toy-factory\\BaseProject\\BaseProject\\BaseProject.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Joon\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\Joon\\.nuget\\packages\\microsoft.aspnet.mvc\\5.2.9\\microsoft.aspnet.mvc.5.2.9.nupkg.sha512",

@@ -3336,11 +3336,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Joon\\source\\repos\\toy-factory\\BaseProject\\BaseProject\\BaseProject.csproj",
+      "projectUniqueName": "C:\\Users\\Joon\\Source\\Repos\\toy-factory\\BaseProject\\BaseProject\\BaseProject.csproj",
       "projectName": "BaseProject",
-      "projectPath": "C:\\Users\\Joon\\source\\repos\\toy-factory\\BaseProject\\BaseProject\\BaseProject.csproj",
+      "projectPath": "C:\\Users\\Joon\\Source\\Repos\\toy-factory\\BaseProject\\BaseProject\\BaseProject.csproj",
       "packagesPath": "C:\\Users\\Joon\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Joon\\Source\\Repos\\toy-factory\\BaseProject\\BaseProject\\obj\\",
+      "outputPath": "C:\\Users\\Joon\\source\\repos\\toy-factory\\BaseProject\\BaseProject\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Joon\\AppData\\Roaming\\NuGet\\NuGet.Config",
