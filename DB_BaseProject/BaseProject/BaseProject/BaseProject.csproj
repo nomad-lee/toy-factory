@@ -21,6 +21,7 @@
 
   <ItemGroup>
     <Folder Include="Migrations\" />
+    <Folder Include="wwwroot\plugins\nicescroll\css\" />
   </ItemGroup>
 
 </Project>

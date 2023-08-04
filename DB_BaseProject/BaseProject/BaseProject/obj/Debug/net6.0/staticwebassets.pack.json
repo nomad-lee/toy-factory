@@ -1,256 +1,3320 @@
 {
   "Files": [
     {
-      "Id": "D:\\Study\\c#\\asp.net\\MyBlog\\ASP.NET_Project\\BaseProject\\BaseProject\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\BaseProject.bundle.scp.css",
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\BaseProject.bundle.scp.css",
       "PackagePath": "staticwebassets\\BaseProject.bundle.scp.css"
     },
     {
-      "Id": "D:\\Study\\c#\\asp.net\\MyBlog\\ASP.NET_Project\\BaseProject\\BaseProject\\wwwroot\\css\\site.css",
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\css\\bootstrap-extended.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-extended.css"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\css\\dark-theme.css",
+      "PackagePath": "staticwebassets\\css\\dark-theme.css"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\css\\header-colors.css",
+      "PackagePath": "staticwebassets\\css\\header-colors.css"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\css\\icons.css",
+      "PackagePath": "staticwebassets\\css\\icons.css"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\css\\light-theme.css",
+      "PackagePath": "staticwebassets\\css\\light-theme.css"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\css\\pace.min.css",
+      "PackagePath": "staticwebassets\\css\\pace.min.css"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\css\\semi-dark.css",
+      "PackagePath": "staticwebassets\\css\\semi-dark.css"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "D:\\Study\\c#\\asp.net\\MyBlog\\ASP.NET_Project\\BaseProject\\BaseProject\\wwwroot\\favicon.ico",
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "D:\\Study\\c#\\asp.net\\MyBlog\\ASP.NET_Project\\BaseProject\\BaseProject\\wwwroot\\js\\iot.js",
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\ad.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\ad.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\ae.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\ae.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\af.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\af.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\ag.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\ag.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\ai.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\ai.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\al.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\al.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\am.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\am.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\ao.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\ao.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\aq.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\aq.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\ar.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\ar.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\as.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\as.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\at.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\at.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\au.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\au.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\aw.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\aw.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\ax.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\ax.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\az.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\az.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\ba.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\ba.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\bb.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\bb.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\bd.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\bd.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\be.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\be.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\bf.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\bf.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\bg.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\bg.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\bh.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\bh.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\bi.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\bi.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\bj.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\bj.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\bl.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\bl.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\bm.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\bm.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\bn.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\bn.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\bo.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\bo.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\bq.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\bq.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\br.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\br.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\bs.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\bs.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\bt.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\bt.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\bv.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\bv.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\bw.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\bw.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\by.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\by.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\bz.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\bz.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\ca.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\ca.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\cc.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\cc.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\cd.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\cd.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\cf.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\cf.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\cg.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\cg.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\ch.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\ch.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\ci.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\ci.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\ck.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\ck.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\cl.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\cl.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\cm.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\cm.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\cn.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\cn.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\co.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\co.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\cr.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\cr.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\cu.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\cu.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\cv.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\cv.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\cw.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\cw.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\cx.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\cx.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\cy.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\cy.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\cz.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\cz.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\de.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\de.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\dj.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\dj.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\dk.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\dk.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\dm.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\dm.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\do.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\do.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\dz.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\dz.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\ec.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\ec.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\ee.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\ee.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\eg.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\eg.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\eh.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\eh.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\er.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\er.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\es-ct.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\es-ct.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\es.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\es.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\et.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\et.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\eu.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\eu.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\fi.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\fi.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\fj.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\fj.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\fk.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\fk.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\fm.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\fm.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\fo.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\fo.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\fr.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\fr.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\ga.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\ga.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\gb-eng.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\gb-eng.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\gb-nir.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\gb-nir.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\gb-sct.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\gb-sct.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\gb-wls.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\gb-wls.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\gb.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\gb.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\gd.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\gd.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\ge.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\ge.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\gf.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\gf.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\gg.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\gg.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\gh.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\gh.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\gi.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\gi.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\gl.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\gl.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\gm.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\gm.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\gn.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\gn.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\gp.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\gp.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\gq.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\gq.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\gr.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\gr.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\gs.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\gs.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\gt.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\gt.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\gu.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\gu.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\gw.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\gw.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\gy.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\gy.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\hk.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\hk.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\hm.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\hm.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\hn.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\hn.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\hr.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\hr.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\ht.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\ht.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\hu.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\hu.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\id.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\id.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\ie.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\ie.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\il.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\il.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\im.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\im.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\in.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\in.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\io.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\io.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\iq.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\iq.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\ir.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\ir.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\is.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\is.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\it.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\it.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\je.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\je.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\jm.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\jm.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\jo.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\jo.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\jp.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\jp.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\ke.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\ke.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\kg.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\kg.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\kh.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\kh.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\ki.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\ki.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\km.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\km.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\kn.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\kn.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\kp.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\kp.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\kr.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\kr.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\kw.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\kw.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\ky.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\ky.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\kz.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\kz.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\la.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\la.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\lb.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\lb.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\lc.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\lc.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\li.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\li.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\lk.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\lk.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\lr.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\lr.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\ls.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\ls.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\lt.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\lt.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\lu.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\lu.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\lv.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\lv.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\ly.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\ly.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\ma.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\ma.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\mc.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\mc.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\md.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\md.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\me.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\me.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\mf.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\mf.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\mg.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\mg.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\mh.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\mh.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\mk.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\mk.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\ml.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\ml.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\mm.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\mm.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\mn.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\mn.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\mo.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\mo.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\mp.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\mp.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\mq.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\mq.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\mr.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\mr.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\ms.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\ms.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\mt.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\mt.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\mu.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\mu.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\mv.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\mv.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\mw.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\mw.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\mx.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\mx.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\my.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\my.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\mz.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\mz.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\na.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\na.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\nc.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\nc.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\ne.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\ne.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\nf.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\nf.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\ng.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\ng.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\ni.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\ni.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\nl.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\nl.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\no.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\no.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\np.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\np.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\nr.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\nr.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\nu.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\nu.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\nz.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\nz.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\om.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\om.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\pa.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\pa.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\pe.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\pe.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\pf.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\pf.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\pg.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\pg.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\ph.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\ph.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\pk.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\pk.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\pl.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\pl.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\pm.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\pm.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\pn.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\pn.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\pr.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\pr.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\ps.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\ps.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\pt.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\pt.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\pw.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\pw.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\py.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\py.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\qa.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\qa.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\re.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\re.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\ro.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\ro.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\rs.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\rs.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\ru.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\ru.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\rw.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\rw.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\sa.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\sa.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\sb.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\sb.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\sc.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\sc.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\sd.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\sd.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\se.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\se.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\sg.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\sg.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\sh.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\sh.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\si.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\si.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\sj.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\sj.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\sk.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\sk.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\sl.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\sl.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\sm.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\sm.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\sn.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\sn.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\so.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\so.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\sr.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\sr.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\ss.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\ss.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\st.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\st.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\sv.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\sv.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\sx.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\sx.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\sy.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\sy.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\sz.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\sz.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\tc.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\tc.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\td.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\td.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\tf.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\tf.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\tg.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\tg.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\th.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\th.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\tj.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\tj.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\tk.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\tk.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\tl.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\tl.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\tm.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\tm.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\tn.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\tn.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\to.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\to.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\tr.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\tr.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\tt.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\tt.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\tv.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\tv.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\tw.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\tw.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\tz.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\tz.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\ua.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\ua.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\ug.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\ug.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\um.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\um.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\un.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\un.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\us.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\us.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\uy.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\uy.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\uz.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\uz.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\va.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\va.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\vc.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\vc.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\ve.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\ve.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\vg.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\vg.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\vi.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\vi.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\vn.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\vn.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\vu.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\vu.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\wf.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\wf.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\ws.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\ws.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\ye.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\ye.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\yt.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\yt.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\za.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\za.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\zm.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\zm.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\1x1\\zw.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\zw.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\ad.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\ad.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\ae.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\ae.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\af.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\af.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\ag.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\ag.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\ai.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\ai.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\al.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\al.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\am.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\am.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\ao.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\ao.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\aq.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\aq.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\ar.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\ar.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\as.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\as.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\at.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\at.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\au.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\au.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\aw.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\aw.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\ax.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\ax.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\az.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\az.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\ba.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\ba.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\bb.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\bb.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\bd.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\bd.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\be.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\be.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\bf.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\bf.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\bg.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\bg.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\bh.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\bh.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\bi.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\bi.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\bj.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\bj.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\bl.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\bl.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\bm.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\bm.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\bn.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\bn.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\bo.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\bo.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\bq.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\bq.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\br.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\br.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\bs.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\bs.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\bt.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\bt.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\bv.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\bv.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\bw.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\bw.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\by.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\by.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\bz.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\bz.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\ca.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\ca.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\cc.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\cc.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\cd.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\cd.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\cf.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\cf.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\cg.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\cg.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\ch.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\ch.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\ci.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\ci.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\ck.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\ck.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\cl.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\cl.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\cm.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\cm.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\cn.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\cn.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\co.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\co.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\cr.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\cr.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\cu.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\cu.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\cv.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\cv.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\cw.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\cw.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\cx.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\cx.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\cy.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\cy.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\cz.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\cz.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\de.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\de.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\dj.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\dj.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\dk.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\dk.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\dm.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\dm.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\do.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\do.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\dz.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\dz.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\ec.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\ec.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\ee.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\ee.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\eg.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\eg.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\eh.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\eh.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\er.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\er.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\es-ct.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\es-ct.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\es.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\es.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\et.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\et.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\eu.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\eu.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\fi.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\fi.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\fj.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\fj.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\fk.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\fk.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\fm.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\fm.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\fo.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\fo.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\fr.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\fr.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\ga.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\ga.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\gb-eng.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\gb-eng.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\gb-nir.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\gb-nir.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\gb-sct.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\gb-sct.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\gb-wls.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\gb-wls.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\gb.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\gb.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\gd.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\gd.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\ge.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\ge.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\gf.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\gf.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\gg.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\gg.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\gh.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\gh.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\gi.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\gi.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\gl.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\gl.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\gm.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\gm.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\gn.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\gn.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\gp.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\gp.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\gq.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\gq.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\gr.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\gr.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\gs.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\gs.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\gt.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\gt.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\gu.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\gu.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\gw.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\gw.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\gy.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\gy.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\hk.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\hk.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\hm.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\hm.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\hn.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\hn.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\hr.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\hr.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\ht.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\ht.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\hu.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\hu.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\id.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\id.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\ie.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\ie.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\il.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\il.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\im.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\im.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\in.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\in.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\io.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\io.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\iq.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\iq.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\ir.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\ir.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\is.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\is.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\it.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\it.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\je.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\je.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\jm.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\jm.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\jo.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\jo.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\jp.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\jp.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\ke.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\ke.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\kg.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\kg.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\kh.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\kh.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\ki.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\ki.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\km.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\km.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\kn.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\kn.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\kp.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\kp.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\kr.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\kr.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\kw.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\kw.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\ky.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\ky.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\kz.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\kz.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\la.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\la.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\lb.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\lb.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\lc.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\lc.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\li.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\li.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\lk.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\lk.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\lr.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\lr.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\ls.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\ls.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\lt.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\lt.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\lu.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\lu.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\lv.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\lv.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\ly.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\ly.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\ma.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\ma.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\mc.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\mc.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\md.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\md.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\me.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\me.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\mf.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\mf.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\mg.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\mg.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\mh.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\mh.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\mk.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\mk.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\ml.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\ml.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\mm.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\mm.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\mn.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\mn.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\mo.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\mo.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\mp.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\mp.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\mq.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\mq.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\mr.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\mr.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\ms.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\ms.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\mt.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\mt.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\mu.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\mu.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\mv.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\mv.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\mw.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\mw.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\mx.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\mx.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\my.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\my.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\mz.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\mz.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\na.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\na.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\nc.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\nc.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\ne.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\ne.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\nf.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\nf.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\ng.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\ng.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\ni.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\ni.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\nl.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\nl.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\no.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\no.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\np.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\np.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\nr.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\nr.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\nu.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\nu.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\nz.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\nz.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\om.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\om.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\pa.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\pa.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\pe.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\pe.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\pf.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\pf.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\pg.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\pg.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\ph.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\ph.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\pk.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\pk.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\pl.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\pl.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\pm.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\pm.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\pn.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\pn.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\pr.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\pr.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\ps.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\ps.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\pt.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\pt.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\pw.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\pw.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\py.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\py.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\qa.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\qa.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\re.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\re.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\ro.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\ro.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\rs.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\rs.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\ru.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\ru.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\rw.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\rw.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\sa.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\sa.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\sb.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\sb.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\sc.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\sc.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\sd.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\sd.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\se.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\se.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\sg.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\sg.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\sh.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\sh.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\si.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\si.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\sj.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\sj.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\sk.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\sk.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\sl.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\sl.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\sm.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\sm.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\sn.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\sn.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\so.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\so.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\sr.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\sr.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\ss.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\ss.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\st.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\st.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\sv.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\sv.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\sx.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\sx.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\sy.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\sy.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\sz.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\sz.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\tc.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\tc.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\td.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\td.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\tf.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\tf.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\tg.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\tg.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\th.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\th.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\tj.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\tj.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\tk.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\tk.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\tl.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\tl.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\tm.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\tm.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\tn.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\tn.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\to.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\to.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\tr.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\tr.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\tt.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\tt.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\tv.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\tv.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\tw.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\tw.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\tz.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\tz.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\ua.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\ua.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\ug.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\ug.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\um.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\um.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\un.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\un.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\us.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\us.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\uy.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\uy.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\uz.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\uz.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\va.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\va.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\vc.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\vc.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\ve.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\ve.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\vg.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\vg.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\vi.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\vi.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\vn.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\vn.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\vu.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\vu.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\wf.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\wf.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\ws.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\ws.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\ye.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\ye.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\yt.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\yt.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\za.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\za.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\zm.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\zm.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\flags\\4x3\\zw.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\zw.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\fonts\\LineIcons.eot",
+      "PackagePath": "staticwebassets\\fonts\\LineIcons.eot"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\fonts\\LineIcons.svg",
+      "PackagePath": "staticwebassets\\fonts\\LineIcons.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\fonts\\LineIcons.ttf",
+      "PackagePath": "staticwebassets\\fonts\\LineIcons.ttf"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\fonts\\LineIcons.woff",
+      "PackagePath": "staticwebassets\\fonts\\LineIcons.woff"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\fonts\\LineIcons.woff2",
+      "PackagePath": "staticwebassets\\fonts\\LineIcons.woff2"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\fonts\\boxicons.eot",
+      "PackagePath": "staticwebassets\\fonts\\boxicons.eot"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\fonts\\boxicons.svg",
+      "PackagePath": "staticwebassets\\fonts\\boxicons.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\fonts\\boxicons.ttf",
+      "PackagePath": "staticwebassets\\fonts\\boxicons.ttf"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\fonts\\boxicons.woff",
+      "PackagePath": "staticwebassets\\fonts\\boxicons.woff"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\fonts\\boxicons.woff2",
+      "PackagePath": "staticwebassets\\fonts\\boxicons.woff2"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\images\\avatars\\avatar-1.png",
+      "PackagePath": "staticwebassets\\images\\avatars\\avatar-1.png"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\images\\avatars\\avatar-10.png",
+      "PackagePath": "staticwebassets\\images\\avatars\\avatar-10.png"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\images\\avatars\\avatar-11.png",
+      "PackagePath": "staticwebassets\\images\\avatars\\avatar-11.png"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\images\\avatars\\avatar-12.png",
+      "PackagePath": "staticwebassets\\images\\avatars\\avatar-12.png"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\images\\avatars\\avatar-13.png",
+      "PackagePath": "staticwebassets\\images\\avatars\\avatar-13.png"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\images\\avatars\\avatar-14.png",
+      "PackagePath": "staticwebassets\\images\\avatars\\avatar-14.png"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\images\\avatars\\avatar-15.png",
+      "PackagePath": "staticwebassets\\images\\avatars\\avatar-15.png"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\images\\avatars\\avatar-16.png",
+      "PackagePath": "staticwebassets\\images\\avatars\\avatar-16.png"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\images\\avatars\\avatar-17.png",
+      "PackagePath": "staticwebassets\\images\\avatars\\avatar-17.png"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\images\\avatars\\avatar-18.png",
+      "PackagePath": "staticwebassets\\images\\avatars\\avatar-18.png"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\images\\avatars\\avatar-19.png",
+      "PackagePath": "staticwebassets\\images\\avatars\\avatar-19.png"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\images\\avatars\\avatar-2.png",
+      "PackagePath": "staticwebassets\\images\\avatars\\avatar-2.png"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\images\\avatars\\avatar-20.png",
+      "PackagePath": "staticwebassets\\images\\avatars\\avatar-20.png"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\images\\avatars\\avatar-21.png",
+      "PackagePath": "staticwebassets\\images\\avatars\\avatar-21.png"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\images\\avatars\\avatar-22.png",
+      "PackagePath": "staticwebassets\\images\\avatars\\avatar-22.png"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\images\\avatars\\avatar-23.png",
+      "PackagePath": "staticwebassets\\images\\avatars\\avatar-23.png"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\images\\avatars\\avatar-24.png",
+      "PackagePath": "staticwebassets\\images\\avatars\\avatar-24.png"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\images\\avatars\\avatar-25.png",
+      "PackagePath": "staticwebassets\\images\\avatars\\avatar-25.png"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\images\\avatars\\avatar-3.png",
+      "PackagePath": "staticwebassets\\images\\avatars\\avatar-3.png"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\images\\avatars\\avatar-4.png",
+      "PackagePath": "staticwebassets\\images\\avatars\\avatar-4.png"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\images\\avatars\\avatar-5.png",
+      "PackagePath": "staticwebassets\\images\\avatars\\avatar-5.png"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\images\\avatars\\avatar-6.png",
+      "PackagePath": "staticwebassets\\images\\avatars\\avatar-6.png"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\images\\avatars\\avatar-7.png",
+      "PackagePath": "staticwebassets\\images\\avatars\\avatar-7.png"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\images\\avatars\\avatar-8.png",
+      "PackagePath": "staticwebassets\\images\\avatars\\avatar-8.png"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\images\\avatars\\avatar-9.png",
+      "PackagePath": "staticwebassets\\images\\avatars\\avatar-9.png"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\images\\bg-login-img.png",
+      "PackagePath": "staticwebassets\\images\\bg-login-img.png"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\images\\bg-register-img.png",
+      "PackagePath": "staticwebassets\\images\\bg-register-img.png"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\images\\brand-logo-2.png",
+      "PackagePath": "staticwebassets\\images\\brand-logo-2.png"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\images\\error\\404-error.png",
+      "PackagePath": "staticwebassets\\images\\error\\404-error.png"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\images\\error\\404.jpg",
+      "PackagePath": "staticwebassets\\images\\error\\404.jpg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\images\\error\\505-error.png",
+      "PackagePath": "staticwebassets\\images\\error\\505-error.png"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\images\\error\\auth-img-7.png",
+      "PackagePath": "staticwebassets\\images\\error\\auth-img-7.png"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\images\\error\\auth-img-register2.png",
+      "PackagePath": "staticwebassets\\images\\error\\auth-img-register2.png"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\images\\error\\auth-img-register3.png",
+      "PackagePath": "staticwebassets\\images\\error\\auth-img-register3.png"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\images\\error\\forgot-password-frent-img.jpg",
+      "PackagePath": "staticwebassets\\images\\error\\forgot-password-frent-img.jpg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\images\\error\\login-img.jpg",
+      "PackagePath": "staticwebassets\\images\\error\\login-img.jpg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\images\\favicon-32x32.png",
+      "PackagePath": "staticwebassets\\images\\favicon-32x32.png"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\images\\forgot-password.png",
+      "PackagePath": "staticwebassets\\images\\forgot-password.png"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\images\\gallery\\01.png",
+      "PackagePath": "staticwebassets\\images\\gallery\\01.png"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\images\\gallery\\02.png",
+      "PackagePath": "staticwebassets\\images\\gallery\\02.png"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\images\\gallery\\03.png",
+      "PackagePath": "staticwebassets\\images\\gallery\\03.png"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\images\\gallery\\04.png",
+      "PackagePath": "staticwebassets\\images\\gallery\\04.png"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\images\\gallery\\05.png",
+      "PackagePath": "staticwebassets\\images\\gallery\\05.png"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\images\\gallery\\06.png",
+      "PackagePath": "staticwebassets\\images\\gallery\\06.png"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\images\\gallery\\07.png",
+      "PackagePath": "staticwebassets\\images\\gallery\\07.png"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\images\\gallery\\08.png",
+      "PackagePath": "staticwebassets\\images\\gallery\\08.png"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\images\\gallery\\09.png",
+      "PackagePath": "staticwebassets\\images\\gallery\\09.png"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\images\\gallery\\10.png",
+      "PackagePath": "staticwebassets\\images\\gallery\\10.png"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\images\\gallery\\11.png",
+      "PackagePath": "staticwebassets\\images\\gallery\\11.png"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\images\\gallery\\12.png",
+      "PackagePath": "staticwebassets\\images\\gallery\\12.png"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\images\\gallery\\17.png",
+      "PackagePath": "staticwebassets\\images\\gallery\\17.png"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\images\\gallery\\18.png",
+      "PackagePath": "staticwebassets\\images\\gallery\\18.png"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\images\\gallery\\19.png",
+      "PackagePath": "staticwebassets\\images\\gallery\\19.png"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\images\\gallery\\20.png",
+      "PackagePath": "staticwebassets\\images\\gallery\\20.png"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\images\\gallery\\21.png",
+      "PackagePath": "staticwebassets\\images\\gallery\\21.png"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\images\\gallery\\22.png",
+      "PackagePath": "staticwebassets\\images\\gallery\\22.png"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\images\\gallery\\23.png",
+      "PackagePath": "staticwebassets\\images\\gallery\\23.png"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\images\\gallery\\24.png",
+      "PackagePath": "staticwebassets\\images\\gallery\\24.png"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\images\\gallery\\25.png",
+      "PackagePath": "staticwebassets\\images\\gallery\\25.png"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\images\\gallery\\26.png",
+      "PackagePath": "staticwebassets\\images\\gallery\\26.png"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\images\\gallery\\27.png",
+      "PackagePath": "staticwebassets\\images\\gallery\\27.png"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\images\\gallery\\28.png",
+      "PackagePath": "staticwebassets\\images\\gallery\\28.png"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\images\\gallery\\29.png",
+      "PackagePath": "staticwebassets\\images\\gallery\\29.png"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\images\\gallery\\30.png",
+      "PackagePath": "staticwebassets\\images\\gallery\\30.png"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\images\\gallery\\31.png",
+      "PackagePath": "staticwebassets\\images\\gallery\\31.png"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\images\\gallery\\32.png",
+      "PackagePath": "staticwebassets\\images\\gallery\\32.png"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\images\\gallery\\33.png",
+      "PackagePath": "staticwebassets\\images\\gallery\\33.png"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\images\\gallery\\34.png",
+      "PackagePath": "staticwebassets\\images\\gallery\\34.png"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\images\\icons\\eye.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\eye.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\images\\icons\\influencer.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\influencer.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\images\\icons\\man-user.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\man-user.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\images\\icons\\search.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\search.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\images\\icons\\shopping-cart.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\shopping-cart.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\images\\icons\\user.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\user.svg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\images\\logo-icon.png",
+      "PackagePath": "staticwebassets\\images\\logo-icon.png"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\images\\products\\01.png",
+      "PackagePath": "staticwebassets\\images\\products\\01.png"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\images\\products\\02.png",
+      "PackagePath": "staticwebassets\\images\\products\\02.png"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\images\\products\\03.png",
+      "PackagePath": "staticwebassets\\images\\products\\03.png"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\images\\products\\04.png",
+      "PackagePath": "staticwebassets\\images\\products\\04.png"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\images\\products\\05.png",
+      "PackagePath": "staticwebassets\\images\\products\\05.png"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\images\\products\\06--.png",
+      "PackagePath": "staticwebassets\\images\\products\\06--.png"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\images\\products\\06.png",
+      "PackagePath": "staticwebassets\\images\\products\\06.png"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\images\\products\\07.png",
+      "PackagePath": "staticwebassets\\images\\products\\07.png"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\images\\products\\08.png",
+      "PackagePath": "staticwebassets\\images\\products\\08.png"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\images\\products\\09.png",
+      "PackagePath": "staticwebassets\\images\\products\\09.png"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\images\\products\\10.png",
+      "PackagePath": "staticwebassets\\images\\products\\10.png"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\images\\products\\11.png",
+      "PackagePath": "staticwebassets\\images\\products\\11.png"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\images\\products\\12.png",
+      "PackagePath": "staticwebassets\\images\\products\\12.png"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\images\\products\\13.png",
+      "PackagePath": "staticwebassets\\images\\products\\13.png"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\images\\products\\14.png",
+      "PackagePath": "staticwebassets\\images\\products\\14.png"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\images\\products\\15.png",
+      "PackagePath": "staticwebassets\\images\\products\\15.png"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\images\\products\\16.png",
+      "PackagePath": "staticwebassets\\images\\products\\16.png"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\images\\products\\17.png",
+      "PackagePath": "staticwebassets\\images\\products\\17.png"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\images\\products\\18.png",
+      "PackagePath": "staticwebassets\\images\\products\\18.png"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\images\\products\\19.png",
+      "PackagePath": "staticwebassets\\images\\products\\19.png"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\images\\products\\20.png",
+      "PackagePath": "staticwebassets\\images\\products\\20.png"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\images\\products\\21.png",
+      "PackagePath": "staticwebassets\\images\\products\\21.png"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\images\\products\\22.png",
+      "PackagePath": "staticwebassets\\images\\products\\22.png"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\images\\products\\23.png",
+      "PackagePath": "staticwebassets\\images\\products\\23.png"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\images\\reset-password.png",
+      "PackagePath": "staticwebassets\\images\\reset-password.png"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\js\\app-chat-box.js",
+      "PackagePath": "staticwebassets\\js\\app-chat-box.js"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\js\\app-emailbox.js",
+      "PackagePath": "staticwebassets\\js\\app-emailbox.js"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\js\\app-emailread.js",
+      "PackagePath": "staticwebassets\\js\\app-emailread.js"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\js\\app.js",
+      "PackagePath": "staticwebassets\\js\\app.js"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\js\\component-popovers-tooltips.js",
+      "PackagePath": "staticwebassets\\js\\component-popovers-tooltips.js"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\js\\data-widgets.js",
+      "PackagePath": "staticwebassets\\js\\data-widgets.js"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\js\\form-date-time-pickes.js",
+      "PackagePath": "staticwebassets\\js\\form-date-time-pickes.js"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\js\\form-file-upload.js",
+      "PackagePath": "staticwebassets\\js\\form-file-upload.js"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\js\\form-select2.js",
+      "PackagePath": "staticwebassets\\js\\form-select2.js"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\js\\icons-feather-icons.js",
+      "PackagePath": "staticwebassets\\js\\icons-feather-icons.js"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\js\\index.js",
+      "PackagePath": "staticwebassets\\js\\index.js"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\js\\index2.js",
+      "PackagePath": "staticwebassets\\js\\index2.js"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\js\\iot.js",
       "PackagePath": "staticwebassets\\js\\iot.js"
     },
     {
-      "Id": "D:\\Study\\c#\\asp.net\\MyBlog\\ASP.NET_Project\\BaseProject\\BaseProject\\wwwroot\\js\\signalR.js",
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\js\\jquery.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\js\\pace.min.js",
+      "PackagePath": "staticwebassets\\js\\pace.min.js"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\js\\signalR.js",
       "PackagePath": "staticwebassets\\js\\signalR.js"
     },
     {
-      "Id": "D:\\Study\\c#\\asp.net\\MyBlog\\ASP.NET_Project\\BaseProject\\BaseProject\\wwwroot\\js\\site.js",
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "D:\\Study\\c#\\asp.net\\MyBlog\\ASP.NET_Project\\BaseProject\\BaseProject\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\js\\table-datatable.js",
+      "PackagePath": "staticwebassets\\js\\table-datatable.js"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\js\\todo.js",
+      "PackagePath": "staticwebassets\\js\\todo.js"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\js\\widgets.js",
+      "PackagePath": "staticwebassets\\js\\widgets.js"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "D:\\Study\\c#\\asp.net\\MyBlog\\ASP.NET_Project\\BaseProject\\BaseProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "D:\\Study\\c#\\asp.net\\MyBlog\\ASP.NET_Project\\BaseProject\\BaseProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "D:\\Study\\c#\\asp.net\\MyBlog\\ASP.NET_Project\\BaseProject\\BaseProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "D:\\Study\\c#\\asp.net\\MyBlog\\ASP.NET_Project\\BaseProject\\BaseProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "D:\\Study\\c#\\asp.net\\MyBlog\\ASP.NET_Project\\BaseProject\\BaseProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "D:\\Study\\c#\\asp.net\\MyBlog\\ASP.NET_Project\\BaseProject\\BaseProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "D:\\Study\\c#\\asp.net\\MyBlog\\ASP.NET_Project\\BaseProject\\BaseProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "D:\\Study\\c#\\asp.net\\MyBlog\\ASP.NET_Project\\BaseProject\\BaseProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "D:\\Study\\c#\\asp.net\\MyBlog\\ASP.NET_Project\\BaseProject\\BaseProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "D:\\Study\\c#\\asp.net\\MyBlog\\ASP.NET_Project\\BaseProject\\BaseProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "D:\\Study\\c#\\asp.net\\MyBlog\\ASP.NET_Project\\BaseProject\\BaseProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "D:\\Study\\c#\\asp.net\\MyBlog\\ASP.NET_Project\\BaseProject\\BaseProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "D:\\Study\\c#\\asp.net\\MyBlog\\ASP.NET_Project\\BaseProject\\BaseProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "D:\\Study\\c#\\asp.net\\MyBlog\\ASP.NET_Project\\BaseProject\\BaseProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "D:\\Study\\c#\\asp.net\\MyBlog\\ASP.NET_Project\\BaseProject\\BaseProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "D:\\Study\\c#\\asp.net\\MyBlog\\ASP.NET_Project\\BaseProject\\BaseProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "D:\\Study\\c#\\asp.net\\MyBlog\\ASP.NET_Project\\BaseProject\\BaseProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "D:\\Study\\c#\\asp.net\\MyBlog\\ASP.NET_Project\\BaseProject\\BaseProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "D:\\Study\\c#\\asp.net\\MyBlog\\ASP.NET_Project\\BaseProject\\BaseProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "D:\\Study\\c#\\asp.net\\MyBlog\\ASP.NET_Project\\BaseProject\\BaseProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "D:\\Study\\c#\\asp.net\\MyBlog\\ASP.NET_Project\\BaseProject\\BaseProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "D:\\Study\\c#\\asp.net\\MyBlog\\ASP.NET_Project\\BaseProject\\BaseProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "D:\\Study\\c#\\asp.net\\MyBlog\\ASP.NET_Project\\BaseProject\\BaseProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "D:\\Study\\c#\\asp.net\\MyBlog\\ASP.NET_Project\\BaseProject\\BaseProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "D:\\Study\\c#\\asp.net\\MyBlog\\ASP.NET_Project\\BaseProject\\BaseProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "D:\\Study\\c#\\asp.net\\MyBlog\\ASP.NET_Project\\BaseProject\\BaseProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "D:\\Study\\c#\\asp.net\\MyBlog\\ASP.NET_Project\\BaseProject\\BaseProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "D:\\Study\\c#\\asp.net\\MyBlog\\ASP.NET_Project\\BaseProject\\BaseProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "D:\\Study\\c#\\asp.net\\MyBlog\\ASP.NET_Project\\BaseProject\\BaseProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "D:\\Study\\c#\\asp.net\\MyBlog\\ASP.NET_Project\\BaseProject\\BaseProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "D:\\Study\\c#\\asp.net\\MyBlog\\ASP.NET_Project\\BaseProject\\BaseProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "D:\\Study\\c#\\asp.net\\MyBlog\\ASP.NET_Project\\BaseProject\\BaseProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "D:\\Study\\c#\\asp.net\\MyBlog\\ASP.NET_Project\\BaseProject\\BaseProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "D:\\Study\\c#\\asp.net\\MyBlog\\ASP.NET_Project\\BaseProject\\BaseProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "D:\\Study\\c#\\asp.net\\MyBlog\\ASP.NET_Project\\BaseProject\\BaseProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "D:\\Study\\c#\\asp.net\\MyBlog\\ASP.NET_Project\\BaseProject\\BaseProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "D:\\Study\\c#\\asp.net\\MyBlog\\ASP.NET_Project\\BaseProject\\BaseProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "D:\\Study\\c#\\asp.net\\MyBlog\\ASP.NET_Project\\BaseProject\\BaseProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "D:\\Study\\c#\\asp.net\\MyBlog\\ASP.NET_Project\\BaseProject\\BaseProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "D:\\Study\\c#\\asp.net\\MyBlog\\ASP.NET_Project\\BaseProject\\BaseProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "D:\\Study\\c#\\asp.net\\MyBlog\\ASP.NET_Project\\BaseProject\\BaseProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "D:\\Study\\c#\\asp.net\\MyBlog\\ASP.NET_Project\\BaseProject\\BaseProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "D:\\Study\\c#\\asp.net\\MyBlog\\ASP.NET_Project\\BaseProject\\BaseProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "D:\\Study\\c#\\asp.net\\MyBlog\\ASP.NET_Project\\BaseProject\\BaseProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "D:\\Study\\c#\\asp.net\\MyBlog\\ASP.NET_Project\\BaseProject\\BaseProject\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "D:\\Study\\c#\\asp.net\\MyBlog\\ASP.NET_Project\\BaseProject\\BaseProject\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "D:\\Study\\c#\\asp.net\\MyBlog\\ASP.NET_Project\\BaseProject\\BaseProject\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "D:\\Study\\c#\\asp.net\\MyBlog\\ASP.NET_Project\\BaseProject\\BaseProject\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "D:\\Study\\c#\\asp.net\\MyBlog\\ASP.NET_Project\\BaseProject\\BaseProject\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "D:\\Study\\c#\\asp.net\\MyBlog\\ASP.NET_Project\\BaseProject\\BaseProject\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "D:\\Study\\c#\\asp.net\\MyBlog\\ASP.NET_Project\\BaseProject\\BaseProject\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "D:\\Study\\c#\\asp.net\\MyBlog\\ASP.NET_Project\\BaseProject\\BaseProject\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "D:\\Study\\c#\\asp.net\\MyBlog\\ASP.NET_Project\\BaseProject\\BaseProject\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "D:\\Study\\c#\\asp.net\\MyBlog\\ASP.NET_Project\\BaseProject\\BaseProject\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "D:\\Study\\c#\\asp.net\\MyBlog\\ASP.NET_Project\\BaseProject\\BaseProject\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "D:\\Study\\c#\\asp.net\\MyBlog\\ASP.NET_Project\\BaseProject\\BaseProject\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\plugins\\Drag-And-Drop\\dist\\imageuploadify.min.css",
+      "PackagePath": "staticwebassets\\plugins\\Drag-And-Drop\\dist\\imageuploadify.min.css"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\plugins\\Drag-And-Drop\\dist\\imageuploadify.min.js",
+      "PackagePath": "staticwebassets\\plugins\\Drag-And-Drop\\dist\\imageuploadify.min.js"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\plugins\\apexcharts-bundle\\css\\apexcharts.css",
+      "PackagePath": "staticwebassets\\plugins\\apexcharts-bundle\\css\\apexcharts.css"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\plugins\\apexcharts-bundle\\js\\apex-custom.js",
+      "PackagePath": "staticwebassets\\plugins\\apexcharts-bundle\\js\\apex-custom.js"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\plugins\\apexcharts-bundle\\js\\apexcharts.js",
+      "PackagePath": "staticwebassets\\plugins\\apexcharts-bundle\\js\\apexcharts.js"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\plugins\\apexcharts-bundle\\js\\apexcharts.min.js",
+      "PackagePath": "staticwebassets\\plugins\\apexcharts-bundle\\js\\apexcharts.min.js"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\plugins\\bootstrap-material-datetimepicker\\css\\bootstrap-material-datetimepicker.min.css",
+      "PackagePath": "staticwebassets\\plugins\\bootstrap-material-datetimepicker\\css\\bootstrap-material-datetimepicker.min.css"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\plugins\\bootstrap-material-datetimepicker\\css\\bootstrap-material-datetimepicker.min.css.map",
+      "PackagePath": "staticwebassets\\plugins\\bootstrap-material-datetimepicker\\css\\bootstrap-material-datetimepicker.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\plugins\\bootstrap-material-datetimepicker\\js\\bootstrap-material-datetimepicker.min.js",
+      "PackagePath": "staticwebassets\\plugins\\bootstrap-material-datetimepicker\\js\\bootstrap-material-datetimepicker.min.js"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\plugins\\bootstrap-material-datetimepicker\\js\\bootstrap-material-datetimepicker.min.js.map",
+      "PackagePath": "staticwebassets\\plugins\\bootstrap-material-datetimepicker\\js\\bootstrap-material-datetimepicker.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\plugins\\bootstrap-material-datetimepicker\\js\\moment.min.js",
+      "PackagePath": "staticwebassets\\plugins\\bootstrap-material-datetimepicker\\js\\moment.min.js"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\plugins\\chartjs\\js\\Chart.extension.js",
+      "PackagePath": "staticwebassets\\plugins\\chartjs\\js\\Chart.extension.js"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\plugins\\chartjs\\js\\Chart.min.js",
+      "PackagePath": "staticwebassets\\plugins\\chartjs\\js\\Chart.min.js"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\plugins\\chartjs\\js\\chartjs-custom.js",
+      "PackagePath": "staticwebassets\\plugins\\chartjs\\js\\chartjs-custom.js"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\plugins\\datatable\\css\\dataTables.bootstrap5.min.css",
+      "PackagePath": "staticwebassets\\plugins\\datatable\\css\\dataTables.bootstrap5.min.css"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\plugins\\datatable\\js\\dataTables.bootstrap5.min.js",
+      "PackagePath": "staticwebassets\\plugins\\datatable\\js\\dataTables.bootstrap5.min.js"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\plugins\\datatable\\js\\jquery.dataTables.min.js",
+      "PackagePath": "staticwebassets\\plugins\\datatable\\js\\jquery.dataTables.min.js"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\plugins\\datetimepicker\\css\\classic.css",
+      "PackagePath": "staticwebassets\\plugins\\datetimepicker\\css\\classic.css"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\plugins\\datetimepicker\\css\\classic.date.css",
+      "PackagePath": "staticwebassets\\plugins\\datetimepicker\\css\\classic.date.css"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\plugins\\datetimepicker\\css\\classic.time.css",
+      "PackagePath": "staticwebassets\\plugins\\datetimepicker\\css\\classic.time.css"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\plugins\\datetimepicker\\js\\legacy.js",
+      "PackagePath": "staticwebassets\\plugins\\datetimepicker\\js\\legacy.js"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\plugins\\datetimepicker\\js\\picker.date.js",
+      "PackagePath": "staticwebassets\\plugins\\datetimepicker\\js\\picker.date.js"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\plugins\\datetimepicker\\js\\picker.js",
+      "PackagePath": "staticwebassets\\plugins\\datetimepicker\\js\\picker.js"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\plugins\\datetimepicker\\js\\picker.time.js",
+      "PackagePath": "staticwebassets\\plugins\\datetimepicker\\js\\picker.time.js"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\plugins\\easyPieChart\\jquery.easypiechart.js",
+      "PackagePath": "staticwebassets\\plugins\\easyPieChart\\jquery.easypiechart.js"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\plugins\\fancy-file-uploader\\cors\\jquery.postmessage-transport.js",
+      "PackagePath": "staticwebassets\\plugins\\fancy-file-uploader\\cors\\jquery.postmessage-transport.js"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\plugins\\fancy-file-uploader\\cors\\jquery.xdr-transport.js",
+      "PackagePath": "staticwebassets\\plugins\\fancy-file-uploader\\cors\\jquery.xdr-transport.js"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\plugins\\fancy-file-uploader\\fancy_fileupload.css",
+      "PackagePath": "staticwebassets\\plugins\\fancy-file-uploader\\fancy_fileupload.css"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\plugins\\fancy-file-uploader\\fancy_microphone.png",
+      "PackagePath": "staticwebassets\\plugins\\fancy-file-uploader\\fancy_microphone.png"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\plugins\\fancy-file-uploader\\fancy_okay.png",
+      "PackagePath": "staticwebassets\\plugins\\fancy-file-uploader\\fancy_okay.png"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\plugins\\fancy-file-uploader\\fancy_remove.png",
+      "PackagePath": "staticwebassets\\plugins\\fancy-file-uploader\\fancy_remove.png"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\plugins\\fancy-file-uploader\\fancy_upload.png",
+      "PackagePath": "staticwebassets\\plugins\\fancy-file-uploader\\fancy_upload.png"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\plugins\\fancy-file-uploader\\fancy_webcam.png",
+      "PackagePath": "staticwebassets\\plugins\\fancy-file-uploader\\fancy_webcam.png"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\plugins\\fancy-file-uploader\\jquery.fancy-fileupload.js",
+      "PackagePath": "staticwebassets\\plugins\\fancy-file-uploader\\jquery.fancy-fileupload.js"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\plugins\\fancy-file-uploader\\jquery.fileupload.js",
+      "PackagePath": "staticwebassets\\plugins\\fancy-file-uploader\\jquery.fileupload.js"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\plugins\\fancy-file-uploader\\jquery.iframe-transport.js",
+      "PackagePath": "staticwebassets\\plugins\\fancy-file-uploader\\jquery.iframe-transport.js"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\plugins\\fancy-file-uploader\\jquery.ui.widget.js",
+      "PackagePath": "staticwebassets\\plugins\\fancy-file-uploader\\jquery.ui.widget.js"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\plugins\\fullcalendar\\css\\main.css",
+      "PackagePath": "staticwebassets\\plugins\\fullcalendar\\css\\main.css"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\plugins\\fullcalendar\\css\\main.min.css",
+      "PackagePath": "staticwebassets\\plugins\\fullcalendar\\css\\main.min.css"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\plugins\\fullcalendar\\js\\main.js",
+      "PackagePath": "staticwebassets\\plugins\\fullcalendar\\js\\main.js"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\plugins\\fullcalendar\\js\\main.min.js",
+      "PackagePath": "staticwebassets\\plugins\\fullcalendar\\js\\main.min.js"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\plugins\\gmaps\\map-custom-script.js",
+      "PackagePath": "staticwebassets\\plugins\\gmaps\\map-custom-script.js"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\plugins\\highcharts\\css\\dark-unica.css",
+      "PackagePath": "staticwebassets\\plugins\\highcharts\\css\\dark-unica.css"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\plugins\\highcharts\\css\\grid-light.css",
+      "PackagePath": "staticwebassets\\plugins\\highcharts\\css\\grid-light.css"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\plugins\\highcharts\\css\\highcharts-white.css",
+      "PackagePath": "staticwebassets\\plugins\\highcharts\\css\\highcharts-white.css"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\plugins\\highcharts\\css\\highcharts.css",
+      "PackagePath": "staticwebassets\\plugins\\highcharts\\css\\highcharts.css"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\plugins\\highcharts\\css\\sand-signika.css",
+      "PackagePath": "staticwebassets\\plugins\\highcharts\\css\\sand-signika.css"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\plugins\\highcharts\\js\\accessibility.js",
+      "PackagePath": "staticwebassets\\plugins\\highcharts\\js\\accessibility.js"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\plugins\\highcharts\\js\\accessibility.js.map",
+      "PackagePath": "staticwebassets\\plugins\\highcharts\\js\\accessibility.js.map"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\plugins\\highcharts\\js\\cylinder.js",
+      "PackagePath": "staticwebassets\\plugins\\highcharts\\js\\cylinder.js"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\plugins\\highcharts\\js\\cylinder.js.map",
+      "PackagePath": "staticwebassets\\plugins\\highcharts\\js\\cylinder.js.map"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\plugins\\highcharts\\js\\export-data.js",
+      "PackagePath": "staticwebassets\\plugins\\highcharts\\js\\export-data.js"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\plugins\\highcharts\\js\\export-data.js.map",
+      "PackagePath": "staticwebassets\\plugins\\highcharts\\js\\export-data.js.map"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\plugins\\highcharts\\js\\exporting.js",
+      "PackagePath": "staticwebassets\\plugins\\highcharts\\js\\exporting.js"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\plugins\\highcharts\\js\\exporting.js.map",
+      "PackagePath": "staticwebassets\\plugins\\highcharts\\js\\exporting.js.map"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\plugins\\highcharts\\js\\funnel3d.js",
+      "PackagePath": "staticwebassets\\plugins\\highcharts\\js\\funnel3d.js"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\plugins\\highcharts\\js\\funnel3d.js.map",
+      "PackagePath": "staticwebassets\\plugins\\highcharts\\js\\funnel3d.js.map"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\plugins\\highcharts\\js\\highcharts-3d.js",
+      "PackagePath": "staticwebassets\\plugins\\highcharts\\js\\highcharts-3d.js"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\plugins\\highcharts\\js\\highcharts-3d.js.map",
+      "PackagePath": "staticwebassets\\plugins\\highcharts\\js\\highcharts-3d.js.map"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\plugins\\highcharts\\js\\highcharts-custom.script.js",
+      "PackagePath": "staticwebassets\\plugins\\highcharts\\js\\highcharts-custom.script.js"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\plugins\\highcharts\\js\\highcharts-more.js",
+      "PackagePath": "staticwebassets\\plugins\\highcharts\\js\\highcharts-more.js"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\plugins\\highcharts\\js\\highcharts-more.js.map",
+      "PackagePath": "staticwebassets\\plugins\\highcharts\\js\\highcharts-more.js.map"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\plugins\\highcharts\\js\\highcharts.js",
+      "PackagePath": "staticwebassets\\plugins\\highcharts\\js\\highcharts.js"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\plugins\\highcharts\\js\\highcharts.js.map",
+      "PackagePath": "staticwebassets\\plugins\\highcharts\\js\\highcharts.js.map"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\plugins\\highcharts\\js\\solid-gauge.js",
+      "PackagePath": "staticwebassets\\plugins\\highcharts\\js\\solid-gauge.js"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\plugins\\highcharts\\js\\solid-gauge.js.map",
+      "PackagePath": "staticwebassets\\plugins\\highcharts\\js\\solid-gauge.js.map"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\plugins\\highcharts\\js\\variable-pie.js",
+      "PackagePath": "staticwebassets\\plugins\\highcharts\\js\\variable-pie.js"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\plugins\\highcharts\\js\\variable-pie.js.map",
+      "PackagePath": "staticwebassets\\plugins\\highcharts\\js\\variable-pie.js.map"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\plugins\\input-tags\\css\\tagsinput.css",
+      "PackagePath": "staticwebassets\\plugins\\input-tags\\css\\tagsinput.css"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\plugins\\input-tags\\js\\tagsinput.js",
+      "PackagePath": "staticwebassets\\plugins\\input-tags\\js\\tagsinput.js"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\plugins\\metismenu\\css\\metisMenu.min.css",
+      "PackagePath": "staticwebassets\\plugins\\metismenu\\css\\metisMenu.min.css"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\plugins\\metismenu\\css\\metisMenu.min.css.map",
+      "PackagePath": "staticwebassets\\plugins\\metismenu\\css\\metisMenu.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\plugins\\metismenu\\js\\metisMenu.min.js",
+      "PackagePath": "staticwebassets\\plugins\\metismenu\\js\\metisMenu.min.js"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\plugins\\metismenu\\js\\metisMenu.min.js.map",
+      "PackagePath": "staticwebassets\\plugins\\metismenu\\js\\metisMenu.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\plugins\\nicescroll\\js\\jquery.nicescroll.min.js",
+      "PackagePath": "staticwebassets\\plugins\\nicescroll\\js\\jquery.nicescroll.min.js"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\plugins\\notifications\\css\\lobibox.css",
+      "PackagePath": "staticwebassets\\plugins\\notifications\\css\\lobibox.css"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\plugins\\notifications\\css\\lobibox.min.css",
+      "PackagePath": "staticwebassets\\plugins\\notifications\\css\\lobibox.min.css"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\plugins\\notifications\\img\\1.jpg",
+      "PackagePath": "staticwebassets\\plugins\\notifications\\img\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\plugins\\notifications\\img\\2.jpg",
+      "PackagePath": "staticwebassets\\plugins\\notifications\\img\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\plugins\\notifications\\img\\3.jpg",
+      "PackagePath": "staticwebassets\\plugins\\notifications\\img\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\plugins\\notifications\\img\\4.jpg",
+      "PackagePath": "staticwebassets\\plugins\\notifications\\img\\4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\plugins\\notifications\\img\\5.jpg",
+      "PackagePath": "staticwebassets\\plugins\\notifications\\img\\5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\plugins\\notifications\\img\\6.jpg",
+      "PackagePath": "staticwebassets\\plugins\\notifications\\img\\6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\plugins\\notifications\\js\\lobibox.js",
+      "PackagePath": "staticwebassets\\plugins\\notifications\\js\\lobibox.js"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\plugins\\notifications\\js\\lobibox.min.js",
+      "PackagePath": "staticwebassets\\plugins\\notifications\\js\\lobibox.min.js"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\plugins\\notifications\\js\\messageboxes.js",
+      "PackagePath": "staticwebassets\\plugins\\notifications\\js\\messageboxes.js"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\plugins\\notifications\\js\\messageboxes.min.js",
+      "PackagePath": "staticwebassets\\plugins\\notifications\\js\\messageboxes.min.js"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\plugins\\notifications\\js\\notification-custom-script.js",
+      "PackagePath": "staticwebassets\\plugins\\notifications\\js\\notification-custom-script.js"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\plugins\\notifications\\js\\notifications.js",
+      "PackagePath": "staticwebassets\\plugins\\notifications\\js\\notifications.js"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\plugins\\notifications\\js\\notifications.min.js",
+      "PackagePath": "staticwebassets\\plugins\\notifications\\js\\notifications.min.js"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\plugins\\notifications\\sounds\\sound1.ogg",
+      "PackagePath": "staticwebassets\\plugins\\notifications\\sounds\\sound1.ogg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\plugins\\notifications\\sounds\\sound2.ogg",
+      "PackagePath": "staticwebassets\\plugins\\notifications\\sounds\\sound2.ogg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\plugins\\notifications\\sounds\\sound3.ogg",
+      "PackagePath": "staticwebassets\\plugins\\notifications\\sounds\\sound3.ogg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\plugins\\notifications\\sounds\\sound4.ogg",
+      "PackagePath": "staticwebassets\\plugins\\notifications\\sounds\\sound4.ogg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\plugins\\notifications\\sounds\\sound5.ogg",
+      "PackagePath": "staticwebassets\\plugins\\notifications\\sounds\\sound5.ogg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\plugins\\notifications\\sounds\\sound6.ogg",
+      "PackagePath": "staticwebassets\\plugins\\notifications\\sounds\\sound6.ogg"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\plugins\\peity\\jquery.peity.min.js",
+      "PackagePath": "staticwebassets\\plugins\\peity\\jquery.peity.min.js"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\plugins\\perfect-scrollbar\\css\\perfect-scrollbar.css",
+      "PackagePath": "staticwebassets\\plugins\\perfect-scrollbar\\css\\perfect-scrollbar.css"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\plugins\\perfect-scrollbar\\js\\perfect-scrollbar.js",
+      "PackagePath": "staticwebassets\\plugins\\perfect-scrollbar\\js\\perfect-scrollbar.js"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\plugins\\select2\\css\\select2-bootstrap4.css",
+      "PackagePath": "staticwebassets\\plugins\\select2\\css\\select2-bootstrap4.css"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\plugins\\select2\\css\\select2.min.css",
+      "PackagePath": "staticwebassets\\plugins\\select2\\css\\select2.min.css"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\plugins\\select2\\js\\select2.min.js",
+      "PackagePath": "staticwebassets\\plugins\\select2\\js\\select2.min.js"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\plugins\\simplebar\\css\\simplebar.css",
+      "PackagePath": "staticwebassets\\plugins\\simplebar\\css\\simplebar.css"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\plugins\\simplebar\\js\\simplebar.min.js",
+      "PackagePath": "staticwebassets\\plugins\\simplebar\\js\\simplebar.min.js"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\plugins\\smart-wizard\\css\\smart_wizard_all.min.css",
+      "PackagePath": "staticwebassets\\plugins\\smart-wizard\\css\\smart_wizard_all.min.css"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\plugins\\smart-wizard\\js\\jquery.smartWizard.min.js",
+      "PackagePath": "staticwebassets\\plugins\\smart-wizard\\js\\jquery.smartWizard.min.js"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\plugins\\smooth-scrollbar\\smooth-scrollbar.js",
+      "PackagePath": "staticwebassets\\plugins\\smooth-scrollbar\\smooth-scrollbar.js"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\plugins\\vectormap\\jquery-jvectormap-2.0.2.css",
+      "PackagePath": "staticwebassets\\plugins\\vectormap\\jquery-jvectormap-2.0.2.css"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\plugins\\vectormap\\jquery-jvectormap-2.0.2.min.js",
+      "PackagePath": "staticwebassets\\plugins\\vectormap\\jquery-jvectormap-2.0.2.min.js"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\plugins\\vectormap\\jquery-jvectormap-au-mill.js",
+      "PackagePath": "staticwebassets\\plugins\\vectormap\\jquery-jvectormap-au-mill.js"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\plugins\\vectormap\\jquery-jvectormap-in-mill.js",
+      "PackagePath": "staticwebassets\\plugins\\vectormap\\jquery-jvectormap-in-mill.js"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\plugins\\vectormap\\jquery-jvectormap-uk-mill-en.js",
+      "PackagePath": "staticwebassets\\plugins\\vectormap\\jquery-jvectormap-uk-mill-en.js"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\plugins\\vectormap\\jquery-jvectormap-us-aea-en.js",
+      "PackagePath": "staticwebassets\\plugins\\vectormap\\jquery-jvectormap-us-aea-en.js"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\plugins\\vectormap\\jquery-jvectormap-world-mill-en.js",
+      "PackagePath": "staticwebassets\\plugins\\vectormap\\jquery-jvectormap-world-mill-en.js"
+    },
+    {
+      "Id": "C:\\Users\\dd\\source\\repos\\toy-factory\\DB_BaseProject\\BaseProject\\BaseProject\\wwwroot\\plugins\\vectormap\\jvectormap.custom.js",
+      "PackagePath": "staticwebassets\\plugins\\vectormap\\jvectormap.custom.js"
     },
     {
       "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.BaseProject.Microsoft.AspNetCore.StaticWebAssets.props",
