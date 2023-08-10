@@ -77,5 +77,5 @@ app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
 
-//app.MapHub<IotHub>("/iothub");
+app.MapHub<IotHub>("/iothub");
 app.Run();
