@@ -1,0 +1,17 @@
+﻿@{
+    ViewData["Title"] = "Account Login Page";
+}
+
+@if (TempData["Error"] != null)
+{
+    <div class="col-md-12 alert alert-danger">
+        <span><b>Sorry!</b> - @TempData["Error"] </span>
+    </div>
+}
+
+@*꾸미기만하면 완료*@
+<form asp-controller="User" asp-action="Login" asp-route-returnurl="@ViewData["ReturnUrl"]" method="post">
+    <input type="text" name="Id" placeholder="Id" value="tester" />
+    <input type="Password" name="Password" placeholder="Password" value="Dkagh1234!" />
+    <button>로그인</button>
+</form>

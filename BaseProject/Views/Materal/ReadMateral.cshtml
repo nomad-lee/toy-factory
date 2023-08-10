@@ -1,0 +1,28 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<form asp-controller="materal" asp-action="UpdateMateral" method="post">
+@foreach(Material_Model material_Model in Model)
+{
+     <p></p>
+        <input type="hidden" name="Id"  value="@material_Model.Id" />
+        <div>자재이름 :<input name="Name" value="@material_Model.Name" /> </div>
+        <div>갯수 : <input name="Quantity" value="@material_Model.Quantity"/> </div>
+        <div>가격 : <input name="Price" value="@material_Model.Price"/> </div>
+        <div>상태 @material_Model.Status</div>
+        @if(material_Model.Status == BaseProject.Data.Enums.StatusCategory.Activation)
+        {
+            <a href="/materal/delete?id=@material_Model.Id">상품비활성화</a>
+        }
+        else if(material_Model.Status == BaseProject.Data.Enums.StatusCategory.Deactivation)
+        {
+            <a href="/materal/delete?id=@material_Model.Id">상품활성화</a>
+        }
+        <div><img src="@material_Model.ImgUrl"/>  </div>
+        
+}
+<input type="submit" value="자재 수정">
+</form> 
+<a href="/materal/create">자재등록</a>

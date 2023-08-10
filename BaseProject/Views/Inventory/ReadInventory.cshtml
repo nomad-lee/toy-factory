@@ -1,0 +1,18 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+@foreach(Inventory_Model inventory in Model)
+{    
+    <div>재고 이름 : @inventory.Product.Name</div>
+    <div>생산 갯수 : @inventory.Count</div>
+    <div>생산 날짜 : @inventory.CreateTime</div>
+    <div><img src="@inventory.Product.ImgUrl"></div>
+    <div><input type="hidden" name="Id"  value="@inventory.Id" /></div>  
+    <div><a href="/Inventory/detail?id=@inventory.Id">@inventory.Product.Name 수정</a></div>
+    
+    <p></p>
+}
+<a href="/Inventory/create">재고등록</a>

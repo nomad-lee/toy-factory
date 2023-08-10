@@ -1,0 +1,12 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<form asp-controller="Materal" asp-action="CreateMateral" enctype="multipart/form-data" method="post">
+    <div>자재이름 : <input type="text" name="Name" placeholder="Name" value="자재_이름" /></div>
+    <div>갯수 : <input type="text" name="Quantity" placeholder="Quantity" value="100" /></div>
+    <div>가격 : <input type="text" name="Price" placeholder="Price" value="10000" /></div>
+    <div><input type="file" name="ImgFile" /></div>   
+    <button>자재등록</button>
+</form>

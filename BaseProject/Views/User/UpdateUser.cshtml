@@ -1,0 +1,8 @@
+﻿
+   <form asp-controller="User" asp-action="UpdateUser" method="post" enctype="multipart/form-data">
+        <div >Name<input type="text" value="@Model.UserName" /></div>
+        <div >PassWord<input type="text" placeholder="Password" /></div>
+        <input type="file" name="file" />      
+        <img src="@Model.ImgUrl">
+        <input type="submit" value="전송">        
+    </form> 

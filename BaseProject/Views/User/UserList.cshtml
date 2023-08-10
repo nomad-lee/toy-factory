@@ -1,0 +1,17 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@foreach(var user in Model)
+{
+   <form asp-controller="User" asp-action="RollAccept" method="post">
+        <input name="UserId" type="hidden" value="@user.Id">
+        <div name="Name">Name @user.UserName</div>
+        <input name="Role" type="text" value="@user.Role">
+        <input name="BeforeRole" type="hidden" value="@user.Role">
+        @*<input type="text" value="@user."*@
+        <input type="submit" value="전송">
+        <img src="@user.ImgUrl">
+    </form> 
+}

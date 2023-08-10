@@ -1,0 +1,26 @@
+﻿@using BaseProject.Data.Enums;
+@model Order_Model
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<form asp-controller="order" asp-action="update" method="post">
+    <div>주문자 : <input type="text" name="Name"  value="@Model.Customer" /></div>
+    <div>상품등록 시간 : @Model.RegisterDate<input type="date" name="RegisterDate"  value="@Model.RegisterDate" /></div>
+    <div>상품종료 시간 : @Model.EndDate<input type="date" name="EndDate" value="@Model.EndDate"></div>
+    
+    <select asp-for="Status" class="form-control" 
+    asp-items="Html.GetEnumSelectList<StatusCategory>()"
+        onselect="@Model.Status">
+    </select>
+    <p></p>
+    <div>주문한 상품 목록</div>
+    <p></p>
+    @foreach(Order_Product_Model product in Model.OrderProducts)
+    {
+        <div>상품이름 : <input type="text" name="Name"  value="@product.Product.Name" /></div>
+        <div>주문갯수 : <input type="text" name="Count"  value="@product.Quantity" /></div>
+    }
+    <button>주문수정</button>
+</form>

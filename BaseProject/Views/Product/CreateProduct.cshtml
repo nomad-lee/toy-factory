@@ -1,0 +1,21 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<form asp-controller="Product" asp-action="create" asp-route-returnurl="@ViewData["ReturnUrl"]" enctype="multipart/form-data" method="post">
+    <div>상품이름 : <input type="text" name="Name" placeholder="Name" value="Car" /></div>
+    <div>가격 : <input type="text" name="Price" placeholder="Price" value="10000" /></div>
+    <div>사진 : <input type="file" name="ImgFile" /></div>
+    <p></p>
+    <div>사용되는 자재</div>
+    @foreach(var Material in Model)
+    {
+        @Material.Name<input type="hidden" name="MetrailId" value="@Material.Id"/>
+        <div>자재이름 : @Material.Name</div>
+        <div>소모되는 양 : <input type="text" name="count" placeholder="count" value="0" /></div>    }    
+    <input type="hidden" name="status"  value="True" />
+
+    <button>상품등록</button>
+</form>
+

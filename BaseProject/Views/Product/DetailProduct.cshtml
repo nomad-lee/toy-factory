@@ -1,0 +1,18 @@
+﻿<form asp-controller="Product" asp-action="Update" method="post">
+    <div>상품명 : <input type="text" name="Name"  value="@Model.Name" /></div>
+    <div>가격 : <input type="text" name="Price"  value="@Model.Price" /></div>
+    <p></p>
+    <div> 사용되는 자재 목록 </div>
+    @foreach(Product_Use_Metrail_Model Metrail in Model.ProductUseMetrailModels)
+    {
+        <div>
+        자재이름 :<input type="text" name="Name" value="@Metrail.Metrail.Name" />
+        </div>
+        <div>
+        가격 :<input type="text" name="Count" value="@Metrail.Metrail.Quantity" />
+        </div>        
+    }
+    <input type="submit" value="전송" />
+    <input type="file" name="ImgFile" />
+    <div>파일 수정 :<img src="@Model.ImgUrl"/></div>
+</form> 

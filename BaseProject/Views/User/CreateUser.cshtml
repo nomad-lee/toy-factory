@@ -1,0 +1,19 @@
+﻿@{
+    ViewData["Title"] = "Signup Page";
+}
+@if (TempData["Error"] != null)
+{
+    <div class="col-md-12 alert alert-danger">
+        <span><b>Sorry!</b> - @TempData["Error"] </span>
+    </div>
+}
+
+
+<form asp-controller="User" asp-action="CreateUser" asp-route-returnurl="@ViewData["ReturnUrl"]" enctype="multipart/form-data" method="post">
+    <input type="text" name="Id" placeholder="Id" value="tester" />
+    <input type="password" name="Password" placeholder="Password" value="Dkagh1234!" />
+    <input type="text" name="Name" placeholder="Name" value="tester01" />
+    <input type="file" name="file" />
+    <button>회원가입</button>
+</form>
+

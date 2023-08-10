@@ -1,0 +1,34 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@foreach(Product_Model product_model in Model)
+{
+
+    <div>상품명 : @product_model.Name</div>
+    <div>가격 : @product_model.Price</div>
+    <div>상태 : @product_model.Status</div>
+    if(product_model.Status == BaseProject.Data.Enums.StatusCategory.Activation)
+    {
+        <a href="/Product/delete?id=@product_model.Id">상품비활성화</a>
+    }
+    else if(product_model.Status == BaseProject.Data.Enums.StatusCategory.Deactivation)
+    {
+        <a href="/Product/delete?id=@product_model.Id">상품활성화</a>
+    }
+        <a href="/Product/detail?id=@product_model.Id">@product_model.Name 수정</a>
+    <p></p>
+    <div> 사용되는 자재 목록 </div>
+@*    @foreach(var UseMetrailModels in product_model.ProductUseMetrailModels)
+    
+    {
+        <div>
+        @UseMetrailModels.Metrail.Name
+        @UseMetrailModels.Quantity</div>
+    }*@
+    <div></div>
+   <div><img src="@product_model.ImgUrl"/></div>
+   
+}
+<a href="/Product/create">상품등록</a>
