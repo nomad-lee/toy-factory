@@ -1,0 +1,121 @@
+﻿@using BaseProject.Data.Enums;
+@model List<Material_Model>
+
+
+    <!--start content-->
+    <main class="page-content">
+        <!--breadcrumb-->
+        <div class="page-breadcrumb d-none d-sm-flex align-items-center mb-3">
+            <div class="breadcrumb-title pe-3">자재 목록</div>
+        </div>
+        <!--end breadcrumb-->
+
+        <div class="card" style="padding-bottom: 10px;">
+
+                <div class="card-body">
+                    <div class="table-responsive">
+                        <table class="table align-middle table-striped">
+                            <thead class="table-light">
+                                <tr>
+                                    <th>Check</th>
+                                    <th>자재 이미지</th>
+                                    <th>자재 이름</th>
+                                    <th>자재 상태</th>
+                                    <th>자재 수량</th>
+                                    <th>자재 가격</th>
+                                    <th>자재 수정</th>
+                                </tr>
+                            </thead>
+                        @foreach (Material_Model material_Model in Model)
+                        {
+                            <form asp-controller="materal" asp-action="UpdateMateral" enctype="multipart/form-data" method="post">
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox">
+                                        </div>
+                                    </td>
+                                    <td class="productlist">
+                                        <div class="product-box">
+                                            <img src=@material_Model.ImgUrl style="width:100px; height:100px">
+                                        </div>
+                                    <div><input type="file" name="ImgFile" /></div>
+                                    </td>
+                                    <input type="hidden" name="Id" value="@material_Model.Id" />
+                                <td><span><input class="form-control" name="Name" value="@material_Model.Name" /></span></td>
+                                    <td><span class="badge rounded-pill bg-success">@material_Model.Status</span></td>
+                                    <td><span>@material_Model.Quantity</span></td>
+                                    <td><span>@material_Model.Price</span></td>
+
+                                    @*<td>
+                                        <span>
+                                        <select name="Status" asp-for="@material_Model.Status" class="form-control" asp-items="Html.GetEnumSelectList<Defult_StatusCategory>()"
+                                                    onselect="@material_Model.Status">
+                                            </select>
+                                        </span>
+                                    </td>*@
+                                    <td>
+                                        <span>
+                                            <div class="text-start">
+                                            <input class="btn btn-primary px-4" type="submit" value="@material_Model.Name 수정">                                               
+                                            </div>
+                                        </span>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </form>
+                    }
+                        </table>
+                    </div>
+                </div>
+         
+            @if (User.IsInRole("MateralManager"))
+            {
+                <div class="text-center">
+                    <a class="btn btn-primary px-4" href="/materal/create">자재 등록</a>
+                </div>
+            }
+            <div class="text-lg-center">
+            <a class="btn btn-primary px-4" href="/materal/create">자재 등록</a>
+                <a class="btn btn-primary px-4" href="/materal/stored">자재 입고</a>
+            </div>
+        
+
+            @*<nav class="float-end mt-4" aria-label="Page navigation">
+            <ul class="pagination">
+            <li class="page-item disabled"><a class="page-link" href="#">Previous</a></li>
+            <li class="page-item active"><a class="page-link" href="#">1</a></li>
+            <li class="page-item"><a class="page-link" href="#">2</a></li>
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+            <li class="page-item"><a class="page-link" href="#">Next</a></li>
+            </ul>
+            </nav>*@
+        </div>
+    </main>
+    <!--end page main-->
+
+
+@*@if (User.IsInRole("MateralManager"))
+{
+    <a href="/materal/create">자재등록</a>
+}
+<a href="/materal/create">자재등록</a>
+<a href="/materal/stored">자재입고</a>
+
+@foreach(Material_Model material_Model in Model)
+{
+    <form asp-controller="materal" asp-action="UpdateMateral" enctype="multipart/form-data" method="post">
+        <input type="hidden" name="Id"  value="@material_Model.Id" />
+        <div>자재이름 :<input name="Name" value="@material_Model.Name" /> </div>
+        <div>갯수 : @material_Model.Quantity </div>
+        <div>가격 : <input name="Price" value="@material_Model.Price"/> </div>
+        <select asp-for="@material_Model.Status" class="form-control" asp-items="Html.GetEnumSelectList<Defult_StatusCategory>()"
+        onselect="@material_Model.Status">
+    </select>
+        <div>사진 수정 <input type="file" name="ImgFile" /></div>
+        <div><img src="@material_Model.ImgUrl"/>  </div>
+        <input type="submit" value="@material_Model.Name 수정">
+    </form>         
+}*@
+

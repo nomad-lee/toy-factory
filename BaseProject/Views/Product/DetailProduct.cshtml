@@ -1,0 +1,78 @@
+﻿@using BaseProject.Data.Enums;
+@model Product_Model
+
+<!--start content-->
+<main class="page-content">
+
+    <div class="row">
+        <div class="col-lg-8 mx-auto">
+            <div class="card">
+                <div class="card-header py-3 bg-transparent">
+                    <h5 class="mb-0">상품 수정</h5>
+                </div>
+                <div class="card-body">
+                    <div class="border p-3 rounded">
+                        <form asp-controller="Product" asp-action="Update" method="post" enctype="multipart/form-data" class="row g-3">
+                            <input type="hidden" name="Id" value="@Model.Id" />
+                            <div class="col-12">
+                                <div class="col-12">
+                                    <div> 등록 이미지 <img src="@Model.ImgUrl" style="width:300px; height:300px" /> </div>
+                                </div>
+                                <div>
+                                    <label class="form-label">수정할 이미지</label>
+                                    <input class="form-control" type="file" name="ImgFile" img src="@Model.ImgUrl" />
+                                </div>
+                                <div class="col-12">
+                                    <label class="form-label">상품명</label>
+                                    <input type="text" class="form-control" name="Name" value="@Model.Name" />
+                                </div>
+                                <div class="col-12">
+                                    <label class="form-label">가격</label>
+                                    <input type="text" class="form-control" name="Price" value="@Model.Price" />
+                                </div>
+                                <p></p>
+                                <div>사용되는 자재 목록</div>
+                                <p></p>
+                                @foreach (Product_Use_Metrail_Model Metrail in Model.ProductUseMetrailModels)
+                                {
+
+                                    <div class="col-12">
+                                        <label class="form-label">@Metrail.Metrail.Name</label>
+                                    </div>
+                                    <div class="col-12">
+                                        <input type="text" class="form-control" name="Count" value="@Metrail.Quantity" />
+                                    </div>
+
+                                }
+                                <input type="hidden" name="status" value="True" />
+                                <p></p>
+                                <div class="col-12">
+                                    <button input type="submit" class="btn btn-primary px-4">상품 수정</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div><!--end row-->
+
+</main>
+<!--end page main-->
+
+@*<form asp-controller="Product" asp-action="Update" enctype="multipart/form-data" method="post">
+    <input type="hidden" name="Id"  value="@Model.Id" />
+    <div>상품명 : @Model.Name</div>
+    <div>가격 : @Model.Price</div>
+    <select asp-for="Status" class="form-control" asp-items="Html.GetEnumSelectList<Defult_StatusCategory>()" onselect="@Model.Status"> </select>
+    <p></p>
+    <div> 사용되는 자재 목록 </div>
+    @foreach(Product_Use_Metrail_Model Metrail in Model.ProductUseMetrailModels)
+    {
+        <div> 자재이름 : @Metrail.Metrail.Name </div>
+        <div> 소모량 : @Metrail.Quantity </div>        
+    }
+    <input type="submit" value="전송" />
+    <input type="file" name="ImgFile" />
+    <div>파일 수정 :<img src="@Model.ImgUrl"/></div>
+</form> *@

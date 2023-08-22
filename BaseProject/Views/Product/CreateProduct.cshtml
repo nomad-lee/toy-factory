@@ -1,0 +1,107 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+<!--start content-->
+<main class="page-content">
+
+    <div class="row">
+        <div class="col-lg-8 mx-auto">
+            <div class="card">
+                <div class="card-header py-3 bg-transparent">
+                    <h5 class="mb-0">상품 등록</h5>
+                </div>
+                <div class="card-body">
+                    <div class="border p-3 rounded">
+                        <form asp-controller="Product" asp-action="create" asp-route-returnurl="@ViewData["ReturnUrl"]" enctype="multipart/form-data" method="post" class="row g-3">
+                            <div class="col-12">
+                                <label class="form-label">상품 이미지</label>
+                                <input class="form-control" type="file" name="ImgFile" id="image" accept="image/*" onchange="setThumbnail(event);" />
+                                <div id="image_container"></div>
+
+                                <script>
+                                    function setThumbnail(event) {
+                                        var reader = new FileReader();
+
+                                        reader.onload = function (event) {
+                                            var img = document.createElement("img");
+                                            img.setAttribute("src", event.target.result);
+                                            document.querySelector("div#image_container").appendChild(img);
+                                        };
+
+                                        reader.readAsDataURL(event.target.files[0]);
+                                    }
+                                </script>
+
+                            </div>
+                            <div class="col-12">
+                                <label class="form-label">상품명</label>
+                                <input type="text" class="form-control" name="Name" placeholder="Name" value="Car">
+                            </div>
+                            <div class="col-12">
+                                <label class="form-label">가격</label>
+                                <input type="text" class="form-control" name="Price" placeholder="Price" value="10000">
+                            </div>
+                            @*                            <div class="col-12">
+                            <label class="form-label">상태</label>
+                            <input type="hidden" class="form-control" placeholder="Enter tags">
+                            </div>*@
+                            <p></p>
+                            <div>사용되는 자재 목록</div>
+                            <p></p>
+                            @foreach (var Material in Model)
+                            {
+                                <input type="hidden" name="MetrailId" value="@Material.Id" />
+
+                                <div class="col-12">
+                                    <label class="form-label">@Material.Name</label>
+                                    <input type="text" class="form-control" name="count" placeholder="count" value="0">
+                                </div>
+
+                            }
+                            <input type="hidden" name="status" value="True" />
+
+                            @*<div class="col-12">
+                            <label class="form-label">플라스틱 소모양</label>
+                            <input type="text" class="form-control" name="count" placeholder="count" value="0">
+                            </div>
+                            <div class="col-12">
+                            <label class="form-label">가죽 소모양</label>
+                            <input type="text" class="form-control" name="count" placeholder="count" value="0">
+                            </div>
+                            <div class="col-12">
+                            <label class="form-label">고무 소모양</label>
+                            <input type="text" class="form-control" name="count" placeholder="count" value="0">
+                            </div>*@
+                            <div class="text-start">
+                                <button class="btn btn-primary px-4">상품 등록</button>
+                            </div>
+                        </form>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div><!--end row-->
+
+</main>
+<!--end page main-->
+
+<form asp-controller="Product" asp-action="create" asp-route-returnurl="@ViewData["ReturnUrl"]" enctype="multipart/form-data" method="post">
+    <div>상품이름 : <input type="text" name="Name" placeholder="Name" value="Car" /></div>
+    <div>가격 : <input type="text" name="Price" placeholder="Price" value="10000" /></div>
+    <div>사진 : <input type="file" name="ImgFile" /></div>
+    <p></p>
+    <div>사용되는 자재</div>
+    @foreach(var Material in Model)
+    {
+        @Material.Name<input type="hidden" name="MetrailId" value="@Material.Id"/>
+        <div>자재이름 : @Material.Name</div>
+        <div>소모되는 양 : <input type="text" name="count" placeholder="count" value="0" /></div>    }    
+    <input type="hidden" name="status"  value="True" />
+
+    <button>상품등록</button>
+</form>
+

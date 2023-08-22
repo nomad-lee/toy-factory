@@ -1,0 +1,103 @@
+﻿<select id="productselect" name="Name" class="form-control" asp-items="@Model"> </select>
+
+<script src="~/js/async.js">
+
+
+</script>
+
+<script>
+    function CreateExModel() {
+        var httpRequest = new XMLHttpRequest();
+        httpRequest.onreadystatechange = function () {
+            if (httpRequest.readyState == XMLHttpRequest.DONE && httpRequest.status == 200) {
+                console.log(httpRequest.responseText);
+            }
+        };
+        // GET 방식으로 요청을 보내면서 데이터를 동시에 전달함.
+        httpRequest.open("GET", "/ex/CreateEx", true);
+        httpRequest.send();
+    }
+
+    // 10초마다 sendRequest 함수를 호출함.
+    getData = setInterval(function () {
+        CreateExModel();
+    }, 500);
+</script>
+
+
+
+
+
+
+<select name="languages" id="lang">
+    <option id="1111" value="javascript">JavaScript</option>
+    <option value="php">PHP</option>
+    <option value="java">Java</option>
+    <option value="golang">Golang</option>
+    <option value="python">Python</option>
+    <option value="c#">C#</option>
+    <option value="C++">C++</option>
+    <option value="erlang">Erlang</option>
+  </select>
+
+<button onclick="ModalControll(modal_insert)" id="insert_btn">값 넣기</button>
+<button onclick="ModalControll(modal_out)" id="out_btn">값 빼기</button>
+<button onclick="Lang()">옵션</button>
+
+<script>
+        let test = document.getElementById('lang');
+        let test2 = test[test.selectedIndex].id;
+        console.log(test2);
+</script>
+
+<script>
+
+
+    const body = document.querySelector('body');
+    const modal_insert = document.getElementById('insert');
+    const modal_out = document.getElementById('out');
+    var httpRequest = new XMLHttpRequest();
+    function sendRequest(id) {
+        httpRequest.open("GET", "/ex/getid?id=1", true);
+        httpRequest.send();
+        var data = document.getElementById("data1");
+        httpRequest.onreadystatechange = function () {
+            if (httpRequest.readyState == XMLHttpRequest.DONE && httpRequest.status == 200) {
+                var res = JSON.parse(httpRequest.responseText)
+                console.log(res)
+                data.value = String(res["id"])
+            };
+
+        }
+    }
+
+    function ModalControll(modal)
+    {
+        modal.classList.toggle('show');
+        if (modal.classList.contains('show')) {
+            body.style.overflow = 'hidden';
+            body.style.overflow = 'auto';
+        }
+        sendRequest(1);
+    }
+
+
+</script>
+
+@*<script>
+    function sendRequest() {
+        var data = document.getElementById("data");
+        var httpRequest = new XMLHttpRequest();
+        httpRequest.onreadystatechange = function () {
+            if (httpRequest.readyState == XMLHttpRequest.DONE && httpRequest.status == 200) {
+                var res = JSON.parse(httpRequest.responseText)
+                data.value = res[0]["id"]
+
+            };
+            httpRequest.open("GET", "/ex/getid?id=" + id, true);
+            httpRequest.send();
+        }
+    }
+
+</script>
+*@

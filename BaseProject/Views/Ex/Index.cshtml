@@ -1,0 +1,317 @@
+﻿@{
+    ViewData["Title"] = "Product List";
+    var productNames = ViewBag.ProductNames as List<string>;
+}
+
+
+<main>
+    <div class="container-fluid px-4">
+        <h1 class="mt-4">재고 상세</h1>
+        <ol class="breadcrumb mb-4">
+            <li class="breadcrumb-item"><a href="/home/index">메인 페이지</a></li>
+            <li class="breadcrumb-item active">재고 상세 페이지</li>
+        </ol>
+        <div class="container-fluid px-4">
+
+            <div class="card mb-4">
+                
+                <div class="card-body">
+                    <div class="datatable-wrapper datatable-loading no-footer sortable searchable fixed-columns">
+                    </div>
+                    <div class="mb-3">
+                        <label for="defaultInput" class="form-label">　수정할 상품명 조회</label>
+                        <div class="input-group">
+                            <input type="text" id="inputBox" name="productname" class="form-control inputBox:hover" placeholder="Product Name Search">
+                            <button class="btn btn-outline-info" onclick="sendRequest()"> 조회 </button>
+                        </div>
+                            <div id="dropdown" style="position:absolute; width:90%; background-color:white; border:1px solid #ccc;  z-index:1; display: none;"></div>
+
+
+                            <script>
+
+                                var productName;
+                                var productId;
+                                function sendRequest() {
+                                    productName = document.getElementById("inputBox").value;
+                                    var httpRequest = new XMLHttpRequest();
+                                    var my_tbody = document.getElementById('table');
+                                    if(my_tbody.rows.length>0){
+                                        while(my_tbody.rows.length>0){
+                                            my_tbody.deleteRow(my_tbody.rows.length-1);
+                                        }
+                                    }
+                                    httpRequest.onreadystatechange = function () {
+                                        if (httpRequest.readyState == XMLHttpRequest.DONE && httpRequest.status == 200) {
+                                            // 받아온 데이터를 화면에 그리는 부분
+                                        console.log("hhtprequest : " + httpRequest.responseText);
+
+                                        const obj = JSON.parse(httpRequest.responseText);
+                                        
+                                        console.log(typeof(obj));
+                                        console.log(obj.length);
+                                        for (var i = 0; i < obj.length; i++) {
+                                            //tbody is = table
+                                            var my_tbody = document.getElementById('table');
+                                            var row = my_tbody.insertRow(my_tbody.rows.length);
+                                            var cell1 = row.insertCell(0);
+                                            var cell2 = row.insertCell(1);
+                                            var cell3 = row.insertCell(2);
+                                            var cell4 = row.insertCell(3);
+                                            var cell5 = row.insertCell(4);
+                                            var cell6 = row.insertCell(5);
+
+
+                                            productId = obj[i]["상품번호"];
+
+                                            cell1.innerHTML = obj[i]["제조번호"];
+                                            cell2.innerHTML = obj[i]["날짜"];
+                                            cell3.innerHTML = obj[i]["상품이름"];
+                                            cell4.innerHTML = obj[i]["입고개수"];
+                                            cell5.innerHTML = obj[i]["출고개수"];
+                                            cell6.innerHTML = obj[i]["비고"];
+                                            
+                                            }
+                                        }
+                                    };
+                                    // GET 방식으로 요청을 보내면서 데이터를 동시에 전달함.
+
+                                    var sendName = document.getElementById("inputBox").value;
+                                    console.log(sendName);
+
+                                    httpRequest.open("GET", "/product/detailajax?productName="+sendName, true);
+                                    httpRequest.send();
+                                }
+
+
+
+                                //-----------------비동기 연결
+
+                            $(document).ready(function () {
+                                const inputBox = $("#inputBox");
+                                const dropdown = $("#dropdown");
+
+
+                                inputBox.hover(function () {
+                                    showDropdown();
+                                }, function () {
+                                    hideDropdown();
+                                });
+
+                                dropdown.hover(function () {
+                                    showDropdown();
+                                }, function () {
+                                    hideDropdown();
+                                });
+
+                                function showDropdown() {
+                                    dropdown.show();
+                                }
+
+                                function hideDropdown() {
+                                    dropdown.hide();
+                                }
+
+                                // 이 부분에 사용 가능한 값(옵션)을 불러오는 코드를 추가해야 합니다.
+
+                                var modelData = @Html.Raw(Json.Serialize(Model));
+                                const list = [];
+                                const id_list=[];
+
+                                console.log("확인 : " + modelData[0]);
+                                for (var i = 0; i < modelData.length; i++) {
+                                    var model = modelData["productName"];
+                                    id_list=modelData["productID"];
+                                    
+                                    list[i] = modelData[i];
+                                }
+
+                                console.log("List : ",list);
+                            
+                                
+
+                                inputBox.on("input", function () {
+                                    const inputText = inputBox.val().toLowerCase();
+                                    const filteredValues = list.filter(value => value.toLowerCase().includes(inputText));
+
+                                    if (filteredValues.length > 0) {
+                                        dropdown.html("");
+                                        filteredValues.forEach(value => {
+                                            const option = $("<div class='option'>" + value + "</div>");
+                                            option.click(function () {
+                                                inputBox.val(value);
+                                                model
+                                                hideDropdown();
+                                            });
+                                            dropdown.append(option);
+                                        });
+                                        showDropdown();
+                                    } else {
+                                        hideDropdown();
+                                    }
+                                });
+                            });
+                            
+                            function showModal(modalId) {
+                                const modal = document.getElementById(modalId);
+                                modal.style.display = 'block';
+                            }
+
+                            const modals = document.getElementsByClassName('modal');
+
+                            window.addEventListener('click', (event) => {
+                                for (const modal of modals) {
+                                    if (event.target === modal) {
+                                        modal.style.display = 'none';
+                                    }
+                                }
+
+                                //날짜 가져오는 코드
+                                const date = new Date();
+                                const year = date.getUTCFullYear();
+                                const month = date.getUTCMonth()+1;
+                                const day=date.getUTCDate();
+
+                                const inputDate = year+'-'+month+'-'+day;
+                                const popdate = document.getElementById('date_1');
+                                popdate.setAttribute('value',inputDate);
+                                const popdate2 = document.getElementById('date_2');
+                                popdate2.setAttribute('value',inputDate);
+
+                                //모달 자동입력
+                                const holdername = document.getElementById('modal_proname');
+                                holdername.setAttribute('value',productName);
+                                const holdername2 = document.getElementById('modal_proname_2');
+                                holdername2.setAttribute('value',productName);
+                                const hidinput = document.getElementById('hiddeninput');
+                                hidinput.setAttribute('value',productId);
+                                const hidinput2 = document.getElementById('hiddeninput_2');
+                                hidinput2.setAttribute('value',productId);
+                            });
+                            
+                            /*
+                            $(document).ready(function () {
+                                // Store 모달의 버튼 클릭 이벤트
+                                $("#storeSaveButton").click(function () {
+                                    var formData = $("#storeForm").serialize();
+                                    $.ajax({
+                                        type: "POST",
+                                        url: "/product/detail",
+                                        data: formData,
+                                        success: function (result) {
+                                            $("#store-modal").modal("hide");
+                                                // sendRequest 등의 추가 작업
+                                        }
+                                    });
+                                });
+
+                                
+                                // Release 모달의 버튼 클릭 이벤트
+                                $("#releaseSaveButton").click(function () {
+                                    var formData = $("#releaseForm").serialize();
+                                    console.log("실행");
+                                    $.ajax({
+                                        type: "Post",
+                                        url: "/product/detail",
+                                        data: formData,
+                                        success: function (result) {
+                                            $("#release-modal").modal("hide");
+                                                // sendRequest 등의 추가 작업
+                                        }
+                                    });
+                                });
+                                // 나머지 코드...
+                            });
+                            */
+                            
+                            
+                            </script>
+                            
+
+                        <!--</form> -->
+                        <div class="datatable-container">
+
+                            <div class="card-body">
+                                조회 상품
+                            </div>
+                            <table id="datatablesSimple" class="datatable-table">
+                                <thead>
+                                    <tr>
+                                        <th data-sortable="true" style="width: 15%;">제조 번호</th>
+                                        <th data-sortable="true" style="width: 17%;">날짜</th>
+                                        <th data-sortable="true" style="width: 17%;">상품 이름</th>
+                                        <th data-sortable="true" style="width: 17%;">입고 개수</th>
+                                        <th data-sortable="true" style="width: 17%;">출고 개수</th>
+                                        <th data-sortable="true" style="width: 19%;">비고</th>
+                                    </tr>
+                                </thead>
+
+                                <tbody id="table">
+                                    
+                                </tbody>
+
+                            </table>
+
+                        </div>
+                        <button id="btn_store" class="btn btn-primary btn-block" onclick="showModal('store-modal')">
+                            입고
+                        </button >
+                        <button id="btn_release" class="btn btn-primary btn-block" onclick="showModal('release-modal')">
+                            출고
+                        </button>
+
+                        <div id="store-modal" class="modal">
+                            <form action="/product/detail" method="post"> 
+                            <div class="modal-content">
+                                <input type="hidden" name="ProductId" id="hiddeninput"/>
+                                <div class="mb-3">
+                                날짜 : <input name="Date" id="date_1" class="form-control" />
+                                </div>
+                                <div class="mb-3">
+                                상품명 : <input class="form-control" id="modal_proname"/>
+                                </div>
+                                <div class="mb-3">
+                                입고 : <input name="Store" class="form-control" placeholder="수량" />
+                                </div class="mb-3">
+                                <div class="mb-3">
+                                비고 : <input name="Note" class="form-control" />
+                                </div>
+                                <div style="padding-top:10px; text-align:center">
+                                    <button id="storeSaveButton" class="btn btn-primary btn-block">등록</button>
+                                </div>
+                            </div>
+                            </form>
+                        </div>
+
+                        <div id="release-modal" class="modal">
+
+                            <div class="modal-content">
+                                <form id="releaseForm" action="/product/detail" method="post">
+                                <input type="hidden" name="ProductId" id="hiddeninput_2"/>
+                                <div class="mb-3">
+                                날짜 : <input name="Date" id="date_2" class="form-control" />
+                                </div>
+                                <div class="mb-3">
+                                상품명 : <input class="form-control" id="modal_proname_2"/>
+                                </div>
+                                <div class="mb-3">
+                                출고 : <input name="Release" class="form-control" placeholder="수량" />
+                                </div class="mb-3"> 
+                                <div class="mb-3">
+                                비고 : <input name="Note" class="form-control" />
+                                </div>
+                                <div style="padding-top:10px; text-align:center">
+                                    <button class="btn btn-primary btn-block">등록</button>
+                                </div>
+                                </form>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+</main>

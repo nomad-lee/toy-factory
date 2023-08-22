@@ -1,0 +1,47 @@
+﻿@{
+    ViewData["Title"] = "Account Login Page";
+}
+
+@if (TempData["Error"] != null)
+{
+    <div class="col-md-12 alert alert-danger">
+        <span><b>Sorry!</b> - @TempData["Error"] </span>
+    </div>
+}
+
+<!--start content-->
+<main class="page-content">
+    <div class="row">
+        <div class="col-12 col-lg-12">
+            <div class="card shadow-sm border-0" style="padding-bottom: 16px;">
+                <div class="card-body">
+                    <h5 class="mb-0">로그인</h5>
+                    <div class="card-body">
+                        <form asp-controller="User" asp-action="Login" asp-route-returnurl="@ViewData["ReturnUrl"]" enctype="multipart/form-data" method="post" class="row g-3">
+                            <div class="col-12">
+                                <label class="form-label">Id</label>
+                                <input type="text" class="form-control" name="Id" placeholder="Id"  />
+                            </div>
+                            <div class="col-12">
+                                <label class="form-label">Password</label>
+                                <input type="password" class="form-control" name="Password" placeholder="Password"  />
+                            </div>
+
+                            <div class="text-center align-self-md-center">
+                                <button type="submit" class="btn btn-primary px-8">로그인</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+
+
+@*꾸미기만하면 완료*@
+@*<form asp-controller="User" asp-action="Login" asp-route-returnurl="@ViewData["ReturnUrl"]" method="post">
+    <input type="text" name="Id" placeholder="Id" value="tester" />
+    <input type="Password" name="Password" placeholder="Password" value="Dkagh1234!" />
+    <button>로그인</button>
+</form>*@

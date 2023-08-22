@@ -1,0 +1,170 @@
+﻿<main class="page-content">
+    <div class="container-fluid px-4">
+        <h1 class="mt-4">Dashboard</h1>
+        <ol class="breadcrumb mb-4">
+            <li class="breadcrumb-item active">Dashboard</li>
+        </ol>
+
+        <div class="row">
+            <div class="col-xl-4">
+                <div class="card mb-4">
+                    <div class="card-header">
+                        <i class="fas fa-chart-area me-1"></i>
+                        카메라 화면
+                    </div>
+                    <div class="card-body"><img src="" id="cameraImage"></div>
+                </div>
+            </div>
+            <div class="col-xl-4">
+                <div class="card mb-4">
+                    <div class="card-header">
+                        <i class="fas fa-chart-bar me-1"></i>
+                        AI 인식 화면
+                    </div>
+                    <div class="card-body"><img src="" id="aiImage"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/microsoft-signalr/6.0.1/signalr.js"></script>
+
+<script>
+    var currentStatus = "0";
+    var connection1 = new signalR.HubConnectionBuilder().withUrl("/ImageHub").build();
+    connection1.on("ReceiveMessage", function (message) {
+        console.log(message);
+        document.getElementById("cameraImage").src = "data:image/jpeg;base64," + message;
+    });
+
+    var connection2 = new signalR.HubConnectionBuilder().withUrl("/AiHub").build();
+    connection2.on("ReceiveAiMessage", function (message) {
+        console.log(message);
+        document.getElementById("aiImage").src = "data:image/jpeg;base64," + message;
+    });
+    console.log("ReceiveMessage");
+
+    connection1.start().then(function () {
+        console.log("연결 성공");
+    }).catch(function (err) {
+        console.log("연결 실패 : " + err.toString());
+    });
+    connection2.start().then(function () {
+        console.log("연결 성공");
+    }).catch(function (err) {
+        console.log("연결 실패 : " + err.toString());
+    });
+
+</script>
+
+
+
+@*<main>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/microsoft-signalr/6.0.1/signalr.js"></script>
+    <script src="/js/signalR.js"></script>
+    <script src="/js/iot.js"></script>
+                
+    <div class="container-fluid px-4">
+        <h1 class="mt-4">Dashboard</h1>
+        <ol class="breadcrumb mb-4">
+            <li class="breadcrumb-item active">Dashboard</li>
+        </ol>
+        <div class="row">
+            <div class="col-xl-3 col-md-6">
+                <div class="card bg-primary text-white mb-4">
+                    <div class="card-body">Primary Card</div>
+                    <div class="card-footer d-flex align-items-center justify-content-between">
+                        <a class="small text-white stretched-link" href="#">View Details</a>
+                        <div class="small text-white"><i class="fas fa-angle-right"></i></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-md-6">
+                <div class="card bg-warning text-white mb-4">
+                    <div class="card-body">Warning Card</div>
+                    <div class="card-footer d-flex align-items-center justify-content-between">
+                        <a class="small text-white stretched-link" href="#">View Details</a>
+                        <div class="small text-white"><i class="fas fa-angle-right"></i></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-md-6">
+                <div class="card bg-success text-white mb-4">
+                    <div class="card-body">Success Card</div>
+                    <div class="card-footer d-flex align-items-center justify-content-between">
+                        <a class="small text-white stretched-link" href="#">View Details</a>
+                        <div class="small text-white"><i class="fas fa-angle-right"></i></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-md-6">
+                <div class="card bg-danger text-white mb-4">
+                    <div class="card-body">Danger Card</div>
+                    <div class="card-footer d-flex align-items-center justify-content-between">
+                        <a class="small text-white stretched-link" href="#">View Details</a>
+                        <div class="small text-white"><i class="fas fa-angle-right"></i></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xl-6">
+                <div class="card mb-4">
+                    <div class="card-header">
+                        <i class="fas fa-chart-area me-1"></i>Img
+                    </div>
+                <div class="card-body">
+                        <div class="row">
+                            <ul id="messageList"></ul>
+                            <img id="Img" src="/img/iot/on.png" onclick="sendMesage()" ></img>
+                        </div>
+                </div>
+            </div>
+
+        </div>
+            <div class="col-xl-6">
+                <div class="card mb-4">
+                    <div class="card-header">
+                        <i class="fas fa-chart-area me-1"></i>AiImg
+                    </div>
+                <div class="card-body">
+                        <div class="row">
+                            <ul id="messageList"></ul>
+                            <img id="AiImg" ></img>
+                        </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="card mb-4">
+            <div class="card-header">
+                <i class="fas fa-table me-1"></i>
+                DataTable Example
+            </div>
+            <div class="text-center card-body">
+                <img id="gif"  src="/img/iot/a_stop.jpg" style="width:504px; height:336px;" /></img>
+            </div>
+        </div>
+        <dvi>
+            <div style="position: relative">
+            <div style="position: absolute; top: 1580px; left: 1600px">
+                <img id="block" src="/img/iot/up.png" onclick="BlockClick()" />
+            </div>
+            <div style="position: absolute; top: 2000px; left: 2000px">
+                <img id="belt" src="/img/iot/beltStop.png" onclick="BeltClick()" />
+            </div>
+            <div style="position: absolute; top: 2000px; left: 1250px">
+                <img id="upbelt" src="/img/iot/upStop.png" onclick="UpBeltClick()" />
+            </div>
+            <div style="position: absolute; top: 1470px; left: 1100px">
+                <img
+                id="downbelt"
+                src="/img/iot/downStop.png"
+                onclick="DownBeltClick()"
+                />
+            </div>
+            </div>
+        </dvi>
+    </div>
+</main>*@

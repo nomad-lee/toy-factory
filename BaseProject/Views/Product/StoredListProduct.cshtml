@@ -1,0 +1,45 @@
+﻿ 
+
+<!--start content-->
+<main class="page-content">
+    <h1 class="mt-4">총 입고 현황</h1>
+    <ol class="breadcrumb mb-4">
+        <li class="breadcrumb-item active"></li>
+    </ol>
+    <div class="row">
+        <div class="col-lg-8 mx-auto">
+            <div class="card">
+                @foreach (var item in Model)
+                {
+                <div class="card-body">
+                    <div class="border p-3 rounded">
+                        <div><h2>상품명 : @item.ProductName</h2></div>
+                        <div><h3>입고 갯수 : @item.StockedCount</h3></div>
+                            <div><h3>출고 갯수 : @item.StoredCount</h3></div>
+                    </div>
+                </div>
+                }
+            </div>
+        </div>
+    </div><!--end row-->
+
+</main>
+<!--end page main-->
+
+
+@*<div>총입고</div>
+@foreach (var item in Model)
+{
+    <div>상품명 : @item.ProductName</div>
+    <div>입고 갯수 : @item.StockedCount</div>
+    <div>출고 갯수 : @item.StoredCount</div>
+    <p></p>
+}
+
+<div>총출고</div>
+@foreach (var item in ViewBag.Stockedresult)
+{
+    <div>상품명 : @item.ProductName</div>
+    <div>출고 갯수 : @item.StoredCount</div>
+    <p></p>
+}*@

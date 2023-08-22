@@ -1,0 +1,111 @@
+﻿
+
+
+<!--start content-->
+<main class="page-content">
+    <!--breadcrumb-->
+    <div class="page-breadcrumb d-none d-sm-flex align-items-center mb-3">
+        <div class="breadcrumb-title pe-3">재고 목록</div>
+    </div>
+    <p></p>
+    <form action="/inventory/read" method="post">
+        <select name="Name" class="form-control" asp-items=@ViewBag.ProductsName data-val="true"> </select>
+        <button class="btn btn-primary px-4" style="margin-top: 10px; margin-bottom: 10px;">검색</button>
+    </form>
+    <p></p>
+    <div><h5>찾는 물건 : @ViewBag.Name</h5></div>
+    <p></p>
+    <!--end breadcrumb-->
+    @if (Model != null)
+    {
+        <div class="card" style="padding-bottom: 10px;">
+                <div class="card-body">
+                    <div class="table-responsive">
+                        <table class="table align-middle table-striped">
+                            <thead class="table-light">
+                                <tr>
+                                    <th>No.</th>
+                                    <th>재고 이름</th>
+                                    <th>생산 수량</th>
+                                    <th>생산일자</th>
+                                </tr>
+                            </thead>
+                        @foreach (Inventory_Model inventory in Model)
+                        {
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox">
+                                        </div>
+                                    </td>
+                                    <td class="productlist">
+                                        <div class="product-box">
+                                            <img src=@inventory.Product.ImgUrl style="width:80px; height:80px">
+                                        </div>
+                                    </td>
+                                    <td><span>@inventory.Product.Name</span></td>
+                                    <td><span>@inventory.Count</span></td>
+                                    <td><span>@inventory.CreateTime</span></td>
+                                    <td>
+                                        <span>
+                                            <div class="text-start">
+                                                <a class="btn btn-primary px-4" href="/Inventory/detail?id=@inventory.Id">@inventory.Product.Name 수정</a>
+                                            </div>
+                                        </span>
+                                    </td>
+                                </tr>
+                            </tbody>
+                            }
+                        </table>
+                    </div>
+                </div>
+            @if (User.IsInRole("InventoryManager"))
+            {
+
+                <div class="text-start align-self-md-center">
+                    <a class="btn btn-primary px-4" href="/Inventory/create">재고 등록</a>
+                </div>
+            }
+            @*<nav class="float-end" aria-label="Page navigation">
+        <ul class="pagination">
+        <li class="page-item disabled"><a class="page-link" href="#">Previous</a></li>
+        <li class="page-item active"><a class="page-link" href="#">1</a></li>
+        <li class="page-item"><a class="page-link" href="#">2</a></li>
+        <li class="page-item"><a class="page-link" href="#">3</a></li>
+        <li class="page-item"><a class="page-link" href="#">Next</a></li>
+        </ul>
+        </nav>*@
+        </div>
+       
+    }
+</main>
+<!--end page main-->
+
+@*
+@if (User.IsInRole("InventoryManager"))
+{
+    <a href="/Inventory/create">재고등록</a>
+}
+
+<form action="/Inventory/Read" method="post">
+    <select name="Name" class="form-control" asp-items=@ViewBag.ProductsName data-val="true"> </select>
+<button>검색</button>
+</form>
+@if (Model != null)
+{
+    <div>찾는 물건 : @ViewBag.Name</div><p></p>
+    @foreach (Inventory_Model inventory in Model)
+    {
+        <div>재고 이름 : @inventory.Product.Name</div>
+        <div>생산 갯수 : @inventory.Count</div>
+        <div>생산 날짜 : @inventory.CreateTime</div>
+        <div><img src="@inventory.Product.ImgUrl"></div>
+        <div><input type="hidden" name="Id" value="@inventory.Id" /></div>
+        <div><a href="/Inventory/detail?id=@inventory.Id">@inventory.Product.Name 수정</a></div>
+
+        <p></p>
+    }
+}
+
+*@

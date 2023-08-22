@@ -1,0 +1,77 @@
+﻿@using BaseProject.Data.Static;
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<main class="page-content">
+
+    <div class="row">
+        <div class="col-lg-8 mx-auto">
+            <div class="card">
+                <div class="card-header py-3 bg-transparent">
+                    <h5 class="mb-0">사용자 권한 정보</h5>
+                </div>
+                 
+                    
+                        <div class="card-body">
+                            <div class="border p-3 rounded">
+                        <form asp-controller="User" asp-action="RollAccept" method="post" enctype="multipart/form-data" class="row g-3">
+                         @foreach (var user in Model)
+                        {
+                                
+                                    <div class="col-12">
+                             
+                                            <div class="col-12">
+                                                <div> 등록 이미지 <img src="@user.ImgUrl" style="width:300px; height:300px" /> </div>
+                                            </div>
+                                            <div>
+                                                <input name="UserId" type="hidden" value="@user.Id">
+                                            </div>
+                                            <div class="col-12">
+                                                <label class="form-label">Name</label>
+                                                <div type="text" class="form-control">@user.UserName</div>
+                                            </div>
+                                            <div class="col-12">
+                                                <label class="form-label">Role </label>
+                                        <div type="text" class="form-control">@user.Role</div>
+                                        <label class="form-label">변경할 권한 </label>
+                                            <select name="Role" class="form-control" asp-items="@ViewBag.roleList"> </select>
+ 
+                                            <div class="col-12">
+                                        <input name="BeforeRole" type="hidden" value="@user.Role">
+                                            </div>
+                                            
+                                        
+                                    </div>
+                                </div>
+                               
+                        }
+                                    <div class="col-12 align-self-md-center" style="padding-top: 10px;">
+                                        <button type="submit" class="btn btn-primary px-4">사용자 권한 수정</button>
+                                    </div>
+                         </form>
+                            
+                        </div>
+                   
+            </div>
+        </div>
+    </div><!--end row-->
+
+</main>
+<!--end page main-->
+
+@*@foreach(var user in Model)
+{
+   <form asp-controller="User" asp-action="RollAccept" method="post">
+
+        <input name="UserId" type="hidden" value="@user.Id">
+        <div name="Name">이름 :  @user.UserName</div>
+        <div>권한 수준 : @user.Role</div>
+        <select name="Role" class="form-control" asp-items="@ViewBag.roleList"> </select>
+        <input name="BeforeRole" type="hidden" value="@user.Role">
+        <input type="text" value="@user."
+        <input type="submit" value="전송">
+        <img src="@user.ImgUrl">
+    </form> 
+}*@

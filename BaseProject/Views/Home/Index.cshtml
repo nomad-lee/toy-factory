@@ -1,0 +1,253 @@
+﻿<main class="page-content">
+    <h1 class="mt-4">실시간 카메라 인식 현황</h1>
+    <ol class="breadcrumb mb-4">
+        <li class="breadcrumb-item active"></li>
+    </ol>
+    <div class="container-fluid px-4">
+        <div class="row">
+            <div class="col-xl-6">
+                <div class="card mb-6">
+                    <div class="card-header">
+                        <i class="fas fa-chart-area me-1"></i>
+                        <h3>카메라 화면</h3>
+                    </div>
+                    <div class="card-body"><img src="" id="cameraImage"></div>
+                </div>
+            </div>
+            <div class="col-xl-6">
+                <div class="card mb-6">
+                    <div class="card-header">
+                        <i class="fas fa-chart-bar me-1"></i>
+                        <h3>AI 인식 화면</h3>
+                    </div>
+                    <div class="card-body"><img src="" id="aiImage"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <h1 class="mt-4">실시간 생산 현황</h1>
+   <div class="container-fluid px-4">
+        <div class="row">
+            <div class="col-xl-6">
+                <div id="card_start" class="card mb-6">
+                </div>
+            </div>     
+            <div class="col-xl-6">
+                <div class="card mb-6">
+                    <div class="card-header">
+                        <h3>생산 현황</h3> 
+                     </div>
+                     <div id="creatList" class="card-body">
+
+                     </div>
+                </div>
+                
+            </div>
+        </div>
+
+    </div>
+    <!--end row-->
+
+</main>
+<!--end page main-->
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/microsoft-signalr/6.0.1/signalr.js"></script>
+
+<script>
+    var currentStatus = "0";
+    var connection1 = new signalR.HubConnectionBuilder().withUrl("/ImageHub").build();
+    connection1.on("ReceiveMessage", function (message) {
+        console.log(message);
+        document.getElementById("cameraImage").src = "data:image/jpeg;base64," + message;
+    });
+
+    var connection2 = new signalR.HubConnectionBuilder().withUrl("/AiHub").build();
+    connection2.on("ReceiveAiMessage", function (message) {
+        console.log(message);
+        document.getElementById("aiImage").src = "data:image/jpeg;base64," + message;
+    });
+    console.log("ReceiveMessage");
+
+    connection1.start().then(function () {
+        console.log("연결 성공");
+    }).catch(function (err) {
+        console.log("연결 실패 : " + err.toString());
+    });
+    connection2.start().then(function () {
+        console.log("연결 성공");
+    }).catch(function (err) {
+        console.log("연결 실패 : " + err.toString());
+    });
+
+</script>
+
+
+
+<script>
+    function sendRequest() {
+        var httpRequest = new XMLHttpRequest();
+            httpRequest.open("GET", "/product/createTest", true);
+            httpRequest.send();
+    }
+        getData = setInterval(function () {
+            sendRequest();
+        }, 2000);
+</script>
+<script>
+    var card_start = document.getElementById("card_start");   
+    
+    async function init()
+    {
+        var fetchData = await fetch("/product/ProductInfo");
+        var jsonData = await fetchData.json();
+        for (var i = 0; i < jsonData.length; i++) {
+            var newCardheader = document.createElement("div");
+            newCardheader.setAttribute("class", "card-header");
+            var newH3 = document.createElement("h3");
+            newH3.textContent = jsonData[i]["Name"];
+            newCardheader.appendChild(newH3);
+            card_start.insertAdjacentElement("beforeend", newCardheader);
+
+            var newCardBody = document.createElement("div");
+            newCardBody.setAttribute("class", "card-body");
+            var newTable_responsive = document.createElement("div");
+            newTable_responsive.setAttribute("class", "table-responsive");
+            var newTable = document.createElement("table");
+            newTable.setAttribute("class", "table align-items-center");
+            var newThead = document.createElement("thead");
+            newThead.setAttribute("class", "table-light");
+            var newTr = document.createElement("tr");
+            var newTh = document.createElement("th");
+            newTh.setAttribute("id", jsonData[i]["Name"] + "_Count")
+            newTh.textContent = "생산갯수 : "+jsonData[i]["Count"];
+            newTr.appendChild(newTh);
+            newThead.appendChild(newTr);
+            newTable.appendChild(newThead);
+            newTable_responsive.appendChild(newTable);
+            newCardBody.appendChild(newTable);
+            card_start.insertAdjacentElement("beforeend", newCardBody);
+        }   
+
+    } init();    
+    setInterval(async function () {
+        
+        var fetchData = await fetch("/product/ProductInfo");
+        var jsonData = await fetchData.json();
+        for (var i = 0; i < jsonData.length; i++) {
+            var newTh = document.getElementById(jsonData[i]["Name"] + "_Count");
+            newTh.textContent = "생산갯수 : " + jsonData[i]["Count"];
+        }
+    }, 2000);
+
+    setInterval(async function () {
+
+        var creatList = document.getElementById("creatList");
+        var fetchData = await fetch("/product/filter");
+        var jsonData = await fetchData.json();
+        // 새로운 상품 조회시 기존 상품 삭제
+        while (creatList.hasChildNodes()) {
+            creatList.removeChild(creatList.firstChild);
+        }
+
+
+        for (var i = 0; i < jsonData.length; i++) {
+            newItem = document.createElement("div");
+            newItem.setAttribute("id", String(i));
+            newItem.textContent = "생산된상품 : " + jsonData[i]["Name"];
+            creatList.insertAdjacentElement("beforeend", newItem);
+        }
+        //for (var i = 0; i < jsonData.length; i++) {
+        //    var newTh = document.getElementById(jsonData[i]["Name"] + "_Count");
+        //    newTh.textContent = "생산갯수 : " + jsonData[i]["Count"];
+        //}
+    }, 100);
+    
+
+    //setInterval(async function () {
+    //    var fetchData = await fetch("/product/ProductInfo");
+    //    var jsonData = await fetchData.json();
+    //    for(var i = 0; i < jsonData.length; i++)
+    //    {
+    //        var newCardheader = document.createElement("div");
+    //        newCardheader.setAttribute("class", "card-header");
+    //        var newH3 = document.createElement("h3");
+    //        newH3.textContent = jsonData[i]["Name"];
+    //        newCardheader.appendChild(newH3);
+    //        card_start.insertAdjacentElement("afterbegin", newCardheader);
+
+    //        var newCardBody = document.createElement("div");
+    //        newCardBody.setAttribute("class", "card-body");
+    //        var newTable_responsive = document.createElement("div");
+    //        newTable_responsive.setAttribute("class", "table-responsive");
+    //        var newTable = document.createElement("table");
+    //        newTable.setAttribute("class", "table align-items-center");
+    //        var newThead = document.createElement("thead");
+    //        newThead.setAttribute("class", "table-light");
+    //        var newTr = document.createElement("tr");
+    //        var newTh = document.createElement("th");
+    //        newTh.setAttribute("id", jsonData[i]["Name"] + "_Count")
+    //        newTh.textContent = jsonData[i]["Count"];
+    //        newTr.appendChild(newTh);
+    //        newThead.appendChild(newTr);
+    //        newTable.appendChild(newThead);
+    //        newCardBody.appendChild(newTable);
+    //    }
+    //card_start.insertAdjacentElement("beforeend", newCardBody);
+    //}, 1000);
+</script>
+@*<script>
+    getData = setInterval(async function () {
+        var Boomerang_Count = document.getElementById("Boomerang_Count");
+        var NinjaStar_Count = document.getElementById("NinjaStar_Count");
+        console.log(NinjaStar_Count);
+        var fetchData = await fetch("/product/ProductInfo").json();
+        var jsonData = await fetchData.json();
+        console.log(jsonData);
+
+
+        fetchData.then((data) => Boomerang_Count.innerHTML = "생산 수량 : " + String(data[0]["Count"]));
+        fetchData.then((data) => NinjaStar_Count.innerHTML = "생산 수량 : " + String(data[1]["Count"]));
+
+            //.then((data) => NinjaStar_Count.innerHTML = "생산 수량 : " + String(data[0]["Count"]));
+
+
+                
+            //Boomerang_Count.value = data[0]["Count"]);
+    }, 1000);
+
+</script>*@
+//<script>
+//    var currentTable = document.getElementById("Boomerang_table");
+//    var currenttestdiv = document.getElementById("Boomerang_tr);
+//    // 새로운 상품 조회시 기존 상품 삭제
+//    if (curProduct != productName) {
+
+//        currenttestdiv.removeChild(currentTable);
+//        var newTable = document.createElement("table");
+//        newTable.setAttribute("id", "table");
+//        currenttestdiv.appendChild(newTable);
+//        curProduct = productName;
+//    }
+
+//    for (var i = 0; i < res.length; i++) {
+//        if (document.getElementById(res[i]["name"] + String(i)) != null) {
+//            document.getElementById(res[i]["name"] + String(i)).remove();
+//        }
+//        var newTr = document.createElement("tr");
+//        newTr.setAttribute("id", res[i]["name"] + String(i))
+
+//        var newTd1 = document.createElement("td");
+//        var newTd2 = document.createElement("td");
+//        var newName = document.createTextNode(res[i]["name"]);
+//        var newCreateTime = document.createTextNode(res[i]["CreateTime"]);
+//        newTd1.appendChild(newName);
+//        newTd2.appendChild(newCreateTime);
+
+//        newTr.appendChild(newTd1);
+//        newTr.appendChild(newTd2);
+//        currentTable.insertAdjacentElement("afterbegin", newTr);
+//    }
+//</script>

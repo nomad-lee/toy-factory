@@ -1,0 +1,71 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+<!--start content-->
+<main class="page-content">
+
+    <div class="row">
+        <div class="col-lg-8 mx-auto">
+            <div class="card">
+                <div class="card-header py-3 bg-transparent">
+                    <h5 class="mb-0">자재 등록</h5>
+                </div>
+                <div class="card-body">
+                    <div class="border p-3 rounded">
+                        <form asp-controller="Materal" asp-action="CreateMateral" enctype="multipart/form-data" method="post" class="row g-3">
+                            <div class="col-12">
+                                <label class="form-label">자재 이미지</label>
+                                <input class="form-control" type="file" name="ImgFile" id="image" accept="image/*" onchange="setThumbnail(event);" />
+                                <div id="image_container"></div>
+
+                                <script>
+                                    function setThumbnail(event) {
+                                        var reader = new FileReader();
+
+                                        reader.onload = function (event) {
+                                            var img = document.createElement("img");
+                                            img.setAttribute("src", event.target.result);
+                                            document.querySelector("div#image_container").appendChild(img);
+                                        };
+
+                                        reader.readAsDataURL(event.target.files[0]);
+                                    }
+                                </script>
+                                <div class="col-12">
+                                    <label class="form-label">자재 이름</label>
+                                    <input type="text" class="form-control" name="Name" placeholder="Name" value="자재_이름">
+                                </div>
+                                <div class="col-12">
+                                    <label class="form-label">수량</label>
+                                    <input type="text" class="form-control" name="Quantity" placeholder="Quantity" value="100">
+                                </div>
+                                <div class="col-12">
+                                    <label class="form-label">가격</label>
+                                    <input type="text" class="form-control" name="Price" placeholder="Price" value="10000">
+                                </div>
+                                <p></p>
+                                <div class="col-12">
+                                    <button class="btn btn-primary px-4">자재 등록</button>
+                                </div>
+                        </form>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div><!--end row-->
+
+</main>
+<!--end page main-->
+
+@*<form asp-controller="Materal" asp-action="CreateMateral" enctype="multipart/form-data" method="post">
+    <div>자재이름 : <input type="text" name="Name" placeholder="Name" value="자재_이름" /></div>
+    <div>갯수 : <input type="text" name="Quantity" placeholder="Quantity" value="100" /></div>
+    <div>가격 : <input type="text" name="Price" placeholder="Price" value="10000" /></div>
+    <div><input type="file" name="ImgFile" /></div>   
+    <button>자재등록</button>
+</form>
+*@

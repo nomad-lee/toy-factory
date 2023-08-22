@@ -1,0 +1,170 @@
+﻿@using BaseProject.Data.Enums;
+@model Order_Model
+
+
+<!--start content-->
+<main class="page-content">
+
+    <div class="row">
+        <div class="col-lg-8 mx-auto">
+            <div class="card">
+                <div class="card-header py-3 bg-transparent">
+                    <h5 class="mb-0">주문 수정</h5>
+                </div>
+                <div class="card-body">
+                    <div class="border p-3 rounded">
+                        <form asp-controller="order" asp-action="update" method="post" class="row g-3">
+                            <input type="hidden" name="Id" value="@Model.Id" />
+
+                            @if (Model.Status != Order_StatusCategory.작업완료)
+                            {
+                                <div class="col-12">
+                                    <label class="form-label">주문자</label>
+                                    <input class="form-control" name="Customer" value="@Model.Customer"/>
+                                </div>
+                            }
+                            else
+                            {
+                                <div class="col-12">
+                                    <label class="form-label">주문자</label>
+                                    <div class="form-control">@Model.Customer</div>
+                                </div>
+                            }
+
+                            <div class="col-12">
+                                <label class="form-label">주문 등록 일자</label>
+                                <div class="form-control">@Model.RegisterDate</div>
+                            </div>
+                            <div class="col-12">
+                                <label class="form-label">주문 등록 수정 일자</label>
+                                <input type="date" class="form-control" name="RegisterDate" value="@Model.RegisterDate"/>
+                            </div>
+                            <div class="col-12">
+                                <label class="form-label">주문 마감 일자</label>
+                                <div class="form-control">@Model.Deadline</div>
+                            </div>
+                            <div class="col-12">
+                                <label class="form-label">주문 마감 수정 일자</label>
+                                <input type="date" class="form-control" name="Deadline" value="@Model.Deadline"/>
+                            </div>
+                            @if (Model.Status != Order_StatusCategory.작업완료)
+                            {
+                                <label class="form-label">주문 상태</label>
+                                <select asp-for="Status"
+                                        class="form-control"
+                                    asp-items="Html.GetEnumSelectList<Order_StatusCategory>()">
+                                </select>
+                            }
+                            else
+                            {
+                                <label class="form-label">주문 상태</label>
+                                <div class="form-control">@Model.Status</div>
+                            }
+
+                                <p></p>
+                                <div>주문한 상품 목록</div>
+                                <p></p>
+
+                                @foreach (Order_Product_Model product in Model.OrderProducts)
+                                {
+                                <input type="hidden" name="ProductId" value="@product.Product.Id" />
+
+                                    <div class="col-12">
+                                        <label class="form-label">주문 상품</label>
+                                        <div class="form-control" />@product.Product.Name
+                                    </div>
+                                    @if (Model.Status != Order_StatusCategory.작업완료)
+                                    {
+                                        <div class="col-12">
+                                            <label class="form-label">주문 수량</label>
+                                            <input type="text" class="form-control" name="Quantity" value="@product.Quantity" />
+                                        </div>
+                                    }
+                                    else
+                                    {
+                                        <div class="col-12">
+                                            <label class="form-label">주문 수량</label>
+                                            <div class="form-control">@product.Quantity</div>
+                                        </div>
+                                    }
+
+                                }
+
+
+                            @if (Model.Status != Order_StatusCategory.작업완료)
+                            {
+                                <div class="col-12">
+                                    <button class="btn btn-primary px-4">주문 수정</button>
+                                </div>
+                            }
+                            else
+                            {
+                                <div></div>
+                            }
+                                
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div><!--end row-->
+
+</main>
+<!--end page main-->
+
+@*<form asp-controller="order" asp-action="update" method="post">
+<input type="hidden" name="Id"  value="@Model.Id" />
+
+@if (Model.Status != Order_StatusCategory.작업완료)
+{
+    <div>주문자 : <input type="text" name="Customer" value="@Model.Customer" /></div>
+}
+else
+{
+    <div>주문자 : @Model.Customer</div>
+}
+    
+    <div>상품등록 시간 : @Model.RegisterDate</div>
+    <div>상품등록 수정시간 : <input type="date" name="RegisterDate" value="@Model.RegisterDate" /></div>
+    <div>상품종료 시간 : @Model.Deadline</div>
+    <div>상품종료 수정시간 : <input type="date" name="Deadline" value="@Model.Deadline"></div>
+    
+    @if (Model.Status != Order_StatusCategory.작업완료)
+    {
+        <select asp-for="Status"
+                class="form-control"
+                asp-items="Html.GetEnumSelectList<Order_StatusCategory>()"
+                >
+        </select>
+    }
+    else
+   {
+        <div>상태 : @Model.Status</div>
+    }
+    
+    <p></p>
+    <div>주문한 상품 목록</div>
+    <p></p>
+    @foreach(Order_Product_Model product in Model.OrderProducts)
+    {
+        <input type="hidden" name="ProductId"  value="@product.Product.Id" />
+        <div>상품이름 : @product.Product.Name</div>
+        @if (Model.Status != Order_StatusCategory.작업완료)
+        {
+            <div>주문갯수 : <input type="text" name="Quantity" value="@product.Quantity" /></div>
+        }        
+        else
+        {
+            <div>주문갯수 : @product.Quantity</div>
+        }      
+    }
+    @if (Model.Status != Order_StatusCategory.작업완료)
+    {
+        <button>주문수정</button>
+    }
+    else
+    {
+        <div></div>
+    }
+    
+</form>*@

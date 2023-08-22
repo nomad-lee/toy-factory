@@ -1,0 +1,58 @@
+﻿@if(ViewData["Error"] != null)
+{
+    <div>@ViewData["Error"]</div>
+}
+
+<!--start content-->
+<main class="page-content">
+
+    <div class="row">
+        <div class="col-12 col-lg-12">
+            <div class="card shadow-sm border-0">
+                <div class="card-body">
+                    <h5 class="mb-0">내 정보 수정</h5>
+                    <hr>
+                    <div class="card shadow-none border">
+                        <div class="card-body">
+                            <form asp-controller="User" asp-action="UpdateUser" method="post" enctype="multipart/form-data" class="row g-3">
+                                <div class="col-12">
+                                    <div> 등록 이미지 <img src="@Model.ImgUrl" style="width:150px; height:150px" /> </div>
+                                    <input type="file" name="file"/>
+                                </div>
+                                
+                                <div class="col-12">
+                                    <label class="form-label">Name</label>
+                                    <input name=UserName type="text" class="form-control" value="@Model.UserName"></input>
+                                </div>
+                                <div class="col-12">
+                                    <label class="form-label">Password</label>
+                                    <input name=Password type="password" class="form-control" placeholder="Password"></input>
+                                </div>
+                                <div class="text-lg-center">
+                                    <button type="submit" class="btn btn-primary px-4">수정</button>
+                                    <a class="btn btn-primary px-4" asp-route-id="@Model.Id" asp-controller="user" asp-action="Delete">회원탈퇴</a>
+                                </div>
+                            </form>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div><!--end row-->
+
+</main>
+<!--end page main-->
+
+@*<form asp-controller="User" asp-action="UpdateUser" method="post" enctype="multipart/form-data">
+
+        <div >내 이름 : <input name=UserName  type="text" value="@Model.UserName" /></div>
+        <div >PassWord <input name=Password  type="text" placeholder="Password" /></div>
+        <input type="file" name="file" />      
+        <img src="@Model.ImgUrl">
+        <input type="submit" value="전송">        
+    </form> 
+    <a class="nav-link text-dark"  asp-route-id="@Model.Id" asp-controller="user" asp-action="Delete">회원탈퇴</a>
+        *@
+                            
+                            
