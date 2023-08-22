@@ -2,12 +2,16 @@
 using BaseProject.Data.Service;
 using BaseProject.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+using Newtonsoft.Json.Linq;
+using System.Xml.Linq;
 
 namespace BaseProject.Controllers
 {
     [Route("ex")]
     public class ExController : Controller
     {
+        int index = 1;
         //private readonly IExService _exService;
         private readonly BaseDbContext _dbContext;
         public ExController( BaseDbContext dbContext) 
@@ -16,6 +20,7 @@ namespace BaseProject.Controllers
         }
         public IActionResult Index()
         {
+
             //ExModel exModel = new ExModel()
             //{
             //    Name = "Ex"
@@ -25,20 +30,65 @@ namespace BaseProject.Controllers
             //_exService.DeleteAsync(0);  // 삭제할 모델
             //_exService.GetAllAsync(); // 모든 모델
             //var result = _exService.GetByIdAsync(1); // Id로 모델 검색
-            
+
             return View();
         }
-        [HttpGet("test")]
-        public string TestFun(int id)
+        [HttpPost("modal")]
+        public string Modal(string str)
         {
-            Console.WriteLine(id);
-            var teststring = _dbContext.Product_Models.Find(id);
-            string result = "";
-            result += teststring.Name + "/";
-            result += teststring.Price.ToString() + "/";
+            return "Modal";
+        }
+        [HttpGet("createEx")]
+        public async Task<string> CreateEx() 
+        {
+            //if (index % 2 == 0)
+            //{
+                
+            //}
+            //await _dbContext.IoT_Data_Models.Where(i => i.ProductId == 1).FirstAsync();
+            //    (new IoT_Data_Model() 
+            //{
 
+            //    ProductId = 1,
+            //    CreateTime = DateTime.Now
 
-            return result;
+            //});
+            //await _dbContext.SaveChangesAsync();
+
+            return "success";
+        }
+        [HttpGet("test")]
+        public string TestFun(string name)
+        {
+            // exmodel에 있는 name 의 데이터 10개만 가져온다
+            var result = _dbContext.ExModels
+                .Include(x => x.Product)
+                .Where(x => x.Product.Name == name)
+                .OrderByDescending(x => x.CreateTime)
+                .Take(10)
+                .ToList();
+
+            
+
+            JArray jArray = new JArray();
+            foreach (var item in result)
+            {
+                JObject jObject = new JObject();
+                jObject.Add("name", item.Product.Name);
+                jObject.Add("CreateTime", item.CreateTime);
+                jArray.Add(jObject);
+            }
+
+            return jArray.ToString();
+        }
+
+        [HttpGet("getid")]
+        public string GetId(string id)
+        {
+
+            JObject jObject = new JObject();
+            jObject.Add("id", id);
+            return jObject.ToString();
         }
     }
 }

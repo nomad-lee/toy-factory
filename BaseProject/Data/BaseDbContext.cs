@@ -11,6 +11,9 @@ namespace BaseProject.Data
         {
         }
 
+        // 테스트용
+        public DbSet<ExModel> ExModels { get; set; }
+
         public DbSet<UserIdentity> Users { get; set; }
         public DbSet<User_Edit_Log_Model> User_Edit_Log_Models { get; set; }
         public DbSet<Login_Log_Model> Login_Log_Models { get; set; }
@@ -19,6 +22,7 @@ namespace BaseProject.Data
         public DbSet<IoT_Model> IoT_Models { get; set; }
         
         public DbSet<Material_Model> Material_Models { get; set; }
+        public DbSet<Materal_Stored_Log_Model> Materal_Stored_Log_Models { get; set; }
         public DbSet<Material_Edit_Log_Model> Material_Edit_Log_Models { get; set; }
 
         public DbSet<Order_Model> Order_Models { get; set; }
@@ -28,6 +32,7 @@ namespace BaseProject.Data
         public DbSet<Product_Edit_LogModel> Product_Edit_Log_Models { get; set; }
         public DbSet<Product_Model> Product_Models { get; set; }
         public DbSet<Product_Use_Metrail_Model> Product_Use_Metrail_Models { get; set; }
+        public DbSet<Product_Create_Model> product_Create_Models { get; set; }
 
         public DbSet<Inventory_Model> Inventory_Models { get; set; }
         public DbSet<Inventory_Edit_Log_Model> Inventory_Edit_Log_Model { get; set; }

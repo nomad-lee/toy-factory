@@ -13,3 +13,4 @@ namespace BaseProject.Models
         public List<Inventory_Edit_Log_Model> InventoryEditLogModels { get; set; } 
     }
 }
+    

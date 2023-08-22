@@ -12,9 +12,6 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
-// SignalR 이미지 사이즈 설정
-//builder.Services.AddSignalR(options => options.MaximumReceiveMessageSize = 1024 * 1024 * 1024);
-
 // Service Interfase 추가
 //builder.Services.AddScoped<IUserService, UserService>();
 builder.Services.AddScoped<IFileService, FileService>();
@@ -41,19 +38,25 @@ builder.Services.AddIdentity<UserIdentity, IdentityRole>(
     .AddDefaultTokenProviders();
 
 // Cookie
-//builder.Services.AddAuthentication(
-//    CookieAuthenticationDefaults.AuthenticationScheme
-//    ).AddCookie(options => {
-//        //options.ExpireTimeSpan = TimeSpan.FromMinutes(60)
-//        options.SlidingExpiration = true;
-//        options.AccessDeniedPath = "/home/accessdenied";
-//        options.LoginPath = "/account/login";
-//    });
+builder.Services.AddAuthentication(
+    CookieAuthenticationDefaults.AuthenticationScheme
+    ).AddCookie(options =>
+    {
+        //options.expiretimespan = timespan.fromminutes(60)
+        options.SlidingExpiration = true;
+        options.AccessDeniedPath = "/user/accessdenied";
+        options.LoginPath = "/user/login";
+    });
 
 // Cache
 builder.Services.AddMemoryCache();
 // Session
 builder.Services.AddSession();
+
+// SignalR 등록(이미지 사이즈 설정)
+builder.Services.AddSignalR(
+    options => options.MaximumReceiveMessageSize = 1024 * 1024 * 1024
+    );
 
 var app = builder.Build();
 
@@ -70,6 +73,7 @@ app.UseSession();
 
 app.UseAuthentication();
 app.UseAuthorization();
+
 AppDbInitializer.Seed(app);
 AppDbInitializer.SeedUsersAndRolesAsync(app).Wait();
 
@@ -78,4 +82,7 @@ app.MapControllerRoute(
     pattern: "{controller=Home}/{action=Index}/{id?}");
 
 app.MapHub<IotHub>("/iothub");
-app.Run();
+app.MapHub<AiHub>("/AiHub");
+app.MapHub<ImageHub>("/ImageHub");
+
+app.Run("http://0.0.0.0:5297");

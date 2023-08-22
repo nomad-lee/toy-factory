@@ -9,8 +9,8 @@ namespace BaseProject.Models
         [Key]
         public int Id { get; set; }
 
-        public int MaterialId { get; set; }
-        public Material_Model Material { get; set; }
+        public int MetrailId    { get; set; }
+        public Material_Model Metrail { get; set; }
 
         public DateTime EditTime { get; set; }
     }

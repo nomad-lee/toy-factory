@@ -19,6 +19,25 @@ namespace BaseProject.Migrations
                 .HasAnnotation("ProductVersion", "7.0.9")
                 .HasAnnotation("Relational:MaxIdentifierLength", 64);
 
+            modelBuilder.Entity("BaseProject.Models.ExModel", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    b.Property<DateTime>("CreateTime")
+                        .HasColumnType("datetime(6)");
+
+                    b.Property<int>("ProductId")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("ProductId");
+
+                    b.ToTable("ExModels");
+                });
+
             modelBuilder.Entity("BaseProject.Models.Inventory_Edit_Log_Model", b =>
                 {
                     b.Property<int>("Id")
@@ -29,6 +48,9 @@ namespace BaseProject.Migrations
                         .HasColumnType("datetime(6)");
 
                     b.Property<int>("InventoryId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("note")
                         .HasColumnType("int");
 
                     b.HasKey("Id");
@@ -69,15 +91,12 @@ namespace BaseProject.Migrations
                     b.Property<DateTime>("CreateTime")
                         .HasColumnType("datetime(6)");
 
-                    b.Property<int>("Data")
-                        .HasColumnType("int");
-
-                    b.Property<int>("IoTModelId")
+                    b.Property<int>("ProductId")
                         .HasColumnType("int");
 
                     b.HasKey("Id");
 
-                    b.HasIndex("IoTModelId");
+                    b.HasIndex("ProductId");
 
                     b.ToTable("IoT_Data_Models");
                 });
@@ -120,6 +139,28 @@ namespace BaseProject.Migrations
                     b.ToTable("Login_Log_Models");
                 });
 
+            modelBuilder.Entity("BaseProject.Models.Materal_Stored_Log_Model", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    b.Property<int>("MetrailId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("Quantity")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime>("StoredTime")
+                        .HasColumnType("datetime(6)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("MetrailId");
+
+                    b.ToTable("Materal_Stored_Log_Models");
+                });
+
             modelBuilder.Entity("BaseProject.Models.Material_Edit_Log_Model", b =>
                 {
                     b.Property<int>("Id")
@@ -129,12 +170,12 @@ namespace BaseProject.Migrations
                     b.Property<DateTime>("EditTime")
                         .HasColumnType("datetime(6)");
 
-                    b.Property<int>("MaterialId")
+                    b.Property<int>("MetrailId")
                         .HasColumnType("int");
 
                     b.HasKey("Id");
 
-                    b.HasIndex("MaterialId");
+                    b.HasIndex("MetrailId");
 
                     b.ToTable("Material_Edit_Log_Models");
                 });
@@ -199,7 +240,7 @@ namespace BaseProject.Migrations
                         .IsRequired()
                         .HasColumnType("longtext");
 
-                    b.Property<DateTime>("EndDate")
+                    b.Property<DateTime>("Deadline")
                         .HasColumnType("datetime(6)");
 
                     b.Property<DateTime>("RegisterDate")
@@ -235,6 +276,28 @@ namespace BaseProject.Migrations
                     b.HasIndex("ProductId");
 
                     b.ToTable("Order_Products");
+                });
+
+            modelBuilder.Entity("BaseProject.Models.Product_Create_Model", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    b.Property<int>("Count")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime>("CreateTime")
+                        .HasColumnType("datetime(6)");
+
+                    b.Property<int>("ProductId")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("ProductId");
+
+                    b.ToTable("product_Create_Models");
                 });
 
             modelBuilder.Entity("BaseProject.Models.Product_Edit_LogModel", b =>
@@ -274,6 +337,9 @@ namespace BaseProject.Migrations
                         .HasColumnType("longtext");
 
                     b.Property<int>("Price")
+                        .HasColumnType("int");
+
+                    b.Property<int>("Quantity")
                         .HasColumnType("int");
 
                     b.Property<int>("Status")
@@ -548,6 +614,17 @@ namespace BaseProject.Migrations
                     b.HasDiscriminator().HasValue("UserIdentity");
                 });
 
+            modelBuilder.Entity("BaseProject.Models.ExModel", b =>
+                {
+                    b.HasOne("BaseProject.Models.Product_Model", "Product")
+                        .WithMany()
+                        .HasForeignKey("ProductId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Product");
+                });
+
             modelBuilder.Entity("BaseProject.Models.Inventory_Edit_Log_Model", b =>
                 {
                     b.HasOne("BaseProject.Models.Inventory_Model", "Inventory")
@@ -572,13 +649,13 @@ namespace BaseProject.Migrations
 
             modelBuilder.Entity("BaseProject.Models.IoT_Data_Model", b =>
                 {
-                    b.HasOne("BaseProject.Models.IoT_Model", "IoTModel")
+                    b.HasOne("BaseProject.Models.Product_Model", "Product")
                         .WithMany()
-                        .HasForeignKey("IoTModelId")
+                        .HasForeignKey("ProductId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.Navigation("IoTModel");
+                    b.Navigation("Product");
                 });
 
             modelBuilder.Entity("BaseProject.Models.Login_Log_Model", b =>
@@ -590,15 +667,26 @@ namespace BaseProject.Migrations
                     b.Navigation("UserIdentity");
                 });
 
-            modelBuilder.Entity("BaseProject.Models.Material_Edit_Log_Model", b =>
+            modelBuilder.Entity("BaseProject.Models.Materal_Stored_Log_Model", b =>
                 {
-                    b.HasOne("BaseProject.Models.Material_Model", "Material")
+                    b.HasOne("BaseProject.Models.Material_Model", "Metrail")
                         .WithMany()
-                        .HasForeignKey("MaterialId")
+                        .HasForeignKey("MetrailId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.Navigation("Material");
+                    b.Navigation("Metrail");
+                });
+
+            modelBuilder.Entity("BaseProject.Models.Material_Edit_Log_Model", b =>
+                {
+                    b.HasOne("BaseProject.Models.Material_Model", "Metrail")
+                        .WithMany()
+                        .HasForeignKey("MetrailId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Metrail");
                 });
 
             modelBuilder.Entity("BaseProject.Models.Order_Edit_Log_Model", b =>
@@ -627,6 +715,17 @@ namespace BaseProject.Migrations
                         .IsRequired();
 
                     b.Navigation("Order");
+
+                    b.Navigation("Product");
+                });
+
+            modelBuilder.Entity("BaseProject.Models.Product_Create_Model", b =>
+                {
+                    b.HasOne("BaseProject.Models.Product_Model", "Product")
+                        .WithMany()
+                        .HasForeignKey("ProductId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
 
                     b.Navigation("Product");
                 });

@@ -21,18 +21,12 @@ namespace BaseProject.Data.Service
 
         private async Task FileDelete(string path)
         {
-            if (System.IO.File.Exists(path))
+            // 파일이 저장될 경로
+            if (Directory.Exists(path))
             {
-                try
-                {
-                    System.IO.File.Delete(path);
-                }
-                catch (System.IO.IOException e)
-                {
-                    await Console.Out.WriteLineAsync(e.Message);
-                    // handle exception
-                }
+                Directory.Delete(path, true);
             }
+           
         }
 
         private async Task<string> FileCreat(string model_id, IFormFile file, string pathName)

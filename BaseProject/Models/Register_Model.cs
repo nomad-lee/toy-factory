@@ -17,7 +17,7 @@ namespace BaseProject.Models
 
         public string ImgUrl { get; set; }
 
-        public StatusCategory Status { get; set; }
+        public Defult_StatusCategory Status { get; set; }
         public DateTime CreateTime{ get; set; }
     }
 }

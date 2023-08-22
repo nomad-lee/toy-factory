@@ -7,12 +7,8 @@ namespace BaseProject.Models
     {
         [Key]
         public int Id { get; set; }
-
-        public int IoTModelId { get; set; }
-        public IoT_Model IoTModel { get; set; }
-        
-        public int Data { get; set; }
-
+        public int ProductId { get; set; }
+        public Product_Model Product { get; set; }
         public DateTime CreateTime { get; set; }
     }
 }

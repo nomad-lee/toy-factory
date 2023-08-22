@@ -2,6 +2,7 @@
 using BaseProject.Models;
 using BaseProject.Data.Static;
 using System;
+using Microsoft.EntityFrameworkCore;
 
 namespace BaseProject.Data
 {
@@ -21,29 +22,29 @@ namespace BaseProject.Data
                         new Material_Model
                     {
                         Name = "플라스틱",
-                        Quantity = 30,
+                        Quantity = 0,
                         Price = 1000,
-                        Status = Data.Enums.StatusCategory.Activation,
+                        Status = Data.Enums.Defult_StatusCategory.가능,
                         ImgUrl = "/" + "Material" + "/" + 1 + "/" + "플라스틱.jpg",
-                        CreateTime = DateTime.Now
+                        CreateTime = DateTime.Today
                     },
                     new Material_Model
                     {
                         Name = "가죽",
-                        Quantity = 5000,
+                        Quantity = 0,
                         Price = 2000,
-                        Status = Data.Enums.StatusCategory.Activation,
+                        Status = Data.Enums.Defult_StatusCategory.불가능,
                         ImgUrl = "/" + "Material" + "/" + 2 + "/" + "가죽.jpg",
-                   CreateTime = DateTime.Now
+                   CreateTime = DateTime.Today
                     },
                     new Material_Model
                     {
                         Name = "고무",
-                        Quantity = 900,
+                        Quantity = 0,
                         Price = 10,
-                        Status = Data.Enums.StatusCategory.Activation,
+                        Status = Data.Enums.Defult_StatusCategory.가능,
                         ImgUrl = "/" + "Material" + "/" + 3 + "/" + "고무.jpg",
-                        CreateTime = DateTime.Now
+                        CreateTime = DateTime.Today
                     },
                 });
                     context.SaveChanges();                    
@@ -56,25 +57,28 @@ namespace BaseProject.Data
                     {
                         Name = "Car",
                         Price = 1000,
-                        Status = Data.Enums.StatusCategory.Activation,
+                        Status = Data.Enums.Defult_StatusCategory.가능,
                         ImgUrl = "/" + "Product" + "/" + 1 + "/" + "Car.jpg",
-                        CreateTime = DateTime.Now
+                        Quantity = 200,
+                        CreateTime = DateTime.Today
                     },
                     new Product_Model
                     {
                         Name = "Boomerang",
                         Price = 10000,
-                        Status = Data.Enums.StatusCategory.Activation,
+                        Status = Data.Enums.Defult_StatusCategory.불가능,
                         ImgUrl = "/" + "Product" + "/" + 2 + "/" + "Boomerang.png",
-                        CreateTime = DateTime.Now
+                        Quantity = 200,
+                        CreateTime = DateTime.Today
                     },
                     new Product_Model
                     {
-                        Name = "NinjaStart",
+                        Name = "NinjaStar",
                         Price = 20000,
-                        Status = Data.Enums.StatusCategory.Activation,
-                        ImgUrl = "/" + "Product" + "/" + 3 + "/" + "NinjaStart.png",
-                        CreateTime = DateTime.Now
+                        Status = Data.Enums.Defult_StatusCategory.가능,
+                        ImgUrl = "/" + "Product" + "/" + 3 + "/" + "NinjaStar.png",
+                        Quantity = 300,
+                        CreateTime = DateTime.Today
                     },
                 });
                     
@@ -187,22 +191,22 @@ namespace BaseProject.Data
                         new Order_Model
                     {
                         Customer = "일지원",
-                        Status = Data.Enums.StatusCategory.Deactivation,
+                        Status = Data.Enums.Order_StatusCategory.작업중,
                         RegisterDate = new DateTime(2020, 5, 5),
-                        EndDate = new DateTime(2020, 5, 10),
+                        Deadline = new DateTime(2020, 5, 10),
                     },new Order_Model
                     {
                         Customer = "이지원",
-                        Status = Data.Enums.StatusCategory.Working,
+                        Status = Data.Enums.Order_StatusCategory.작업대기,
                         RegisterDate = new DateTime(2020, 10, 20),
-                        EndDate = new DateTime(2020, 11, 30),
+                        Deadline = new DateTime(2020, 11, 30),
                     },
                         new Order_Model
                     {
                         Customer = "삼지원",
-                        Status = Data.Enums.StatusCategory.Activation,
+                        Status = Data.Enums.Order_StatusCategory.작업대기,
                         RegisterDate = new DateTime(2025, 4, 5),
-                        EndDate = new DateTime(2026, 1, 10),
+                        Deadline = new DateTime(2026, 1, 10),
                     },
 
                 });
@@ -251,6 +255,22 @@ namespace BaseProject.Data
                     });
                     context.SaveChanges();
                 }
+                if (!context.product_Create_Models.Any())
+                {
+                    var Products = context.Product_Models.ToList();
+                    var Create_Modesls = context.product_Create_Models;
+                    foreach(var product in Products)
+                    {
+                        var Create_Model = new Product_Create_Model
+                        {
+                            ProductId = product.Id,
+                            CreateTime = DateTime.Now,
+                            Count = 0,
+                        };
+                        Create_Modesls.Add(Create_Model);
+                    }
+                    context.SaveChanges();
+                }
             }
 
         }
@@ -265,46 +285,54 @@ namespace BaseProject.Data
 
                 if (!await roleManager.RoleExistsAsync(UserRoles.Admin))
                     await roleManager.CreateAsync(new IdentityRole(UserRoles.Admin));
-                if (!await roleManager.RoleExistsAsync(UserRoles.Manager))
-                    await roleManager.CreateAsync(new IdentityRole(UserRoles.Manager));
-                if (!await roleManager.RoleExistsAsync(UserRoles.Member))
+                if (!await roleManager.RoleExistsAsync(UserRoles.Admin))
                     await roleManager.CreateAsync(new IdentityRole(UserRoles.Member));
+                if (!await roleManager.RoleExistsAsync(UserRoles.InventoryManager))
+                    await roleManager.CreateAsync(new IdentityRole(UserRoles.InventoryManager));
+                if (!await roleManager.RoleExistsAsync(UserRoles.MaterialManager))
+                    await roleManager.CreateAsync(new IdentityRole(UserRoles.MaterialManager));
+                if (!await roleManager.RoleExistsAsync(UserRoles.ProductManager))
+                    await roleManager.CreateAsync(new IdentityRole(UserRoles.ProductManager));
+                if (!await roleManager.RoleExistsAsync(UserRoles.OrderManager))
+                    await roleManager.CreateAsync(new IdentityRole(UserRoles.OrderManager));
                 if (!await roleManager.RoleExistsAsync(UserRoles.NoRole))
                     await roleManager.CreateAsync(new IdentityRole(UserRoles.NoRole));
-            }
-                ////Users
-                //var userManager = serviceScope.ServiceProvider.GetRequiredService<UserManager<IdentityUser>>();
-                //string adminUserEmail = "admin@web.com";
+                //Users
+                var userManager = serviceScope.ServiceProvider.GetRequiredService<UserManager<UserIdentity>>();
+                string adminUserEmail = "admin@web.com";
 
-                //var adminUser = await userManager.FindByEmailAsync(adminUserEmail);
-                //if (adminUser == null)
+                var adminUser = await userManager.FindByEmailAsync(adminUserEmail);
+                if (adminUser == null)
+                {
+                    var newAdminUser = new UserIdentity()
+                    {
+                        Id = "admin",
+                        UserName = "Admin",
+                        Email = adminUserEmail,
+                        EmailConfirmed = true,
+                        ImgUrl = "gg"
+                    };
+                    var result =  await userManager.CreateAsync(newAdminUser, "Dkagh1234!");
+                    var result2 = await userManager.AddToRoleAsync(newAdminUser, UserRoles.Admin);
+                }
+
+
+                //string appUserEmail = "user@web.com";
+
+                //var appUser = await userManager.FindByEmailAsync(appUserEmail);
+                //if (appUser == null)
                 //{
-                //    var newAdminUser = new IdentityUser()
+                //    var newAppUser = new IdentityUser()
                 //    {
-                //        UserName = "admin-user",
-                //        Email = adminUserEmail,
+                //        UserName = "app-user",
+                //        Email = appUserEmail,
                 //        EmailConfirmed = true
                 //    };
-                //    await userManager.CreateAsync(newAdminUser, "Dkagh1234!?");
-                //    await userManager.AddToRoleAsync(newAdminUser, UserRoles.Admin);
-                //}
-
-
-                //    string appUserEmail = "user@web.com";
-
-                //    var appUser = await userManager.FindByEmailAsync(appUserEmail);
-                //    if (appUser == null)
-                //    {
-                //        var newAppUser = new IdentityUser()
-                //        {
-                //            UserName = "app-user",
-                //            Email = appUserEmail,
-                //            EmailConfirmed = true
-                //        };
-                //        await userManager.CreateAsync(newAppUser, "Dkagh1234!");
-                //        await userManager.AddToRoleAsync(newAppUser, UserRoles.User);
-                //    }
+                //    await userManager.CreateAsync(newAppUser, "Dkagh1234!");
+                //    await userManager.AddToRoleAsync(newAppUser, UserRoles.User);
                 //}
             }
-    }
+        }
+            
+    }    
 }

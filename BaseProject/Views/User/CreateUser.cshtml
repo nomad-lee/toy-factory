@@ -8,12 +8,64 @@
     </div>
 }
 
+<script>
+    function setThumbnail(event) {
+        var reader = new FileReader();
 
-<form asp-controller="User" asp-action="CreateUser" asp-route-returnurl="@ViewData["ReturnUrl"]" enctype="multipart/form-data" method="post">
+        reader.onload = function (event) {
+            var img = document.createElement("img");
+            img.setAttribute("src", event.target.result);
+            document.querySelector("div#image_container").appendChild(img);
+        };
+
+        reader.readAsDataURL(event.target.files[0]);
+    }
+</script>
+<!--start content-->
+<main class="page-content">
+    <div class="row">
+        <div class="col-12 col-lg-12">
+            <div class="card shadow-sm border-0" style="padding-bottom: 16px;">
+                <div class="card-body">
+                    <h5 class="mb-0">회원 가입</h5>
+                    <div class="card-body">
+                        <form asp-controller="User" asp-action="CreateUser" asp-route-returnurl="@ViewData["ReturnUrl"]" enctype="multipart/form-data" method="post" class="row g-3">
+                            <div class="col-12">
+                                <label class="form-label">회원가입 이미지</label>
+                                <input class="form-control" type="file" name="file" id="image" accept="image/*" onchange="setThumbnail(event);" />
+                                <div id="image_container"></div>
+                            </div>
+                            <div class="col-12">
+                                <label class="form-label">Id</label>
+                                <input type="text" class="form-control" name="Id" placeholder="Id"  />
+                            </div>
+                            <div class="col-12">
+                                <label class="form-label">Password</label>
+                                <input type="password" class="form-control" name="Password" placeholder="Password" value="Dkagh1234!" />
+                            </div>
+                            <div class="col-12">
+                                <label class="form-label">Name</label>
+                                <input type="text" class="form-control" name="Name" placeholder="Name"  />
+                            </div>
+                            <div class="text-center align-self-md-center">
+                                <button type="submit" class="btn btn-primary px-8">회원 가입</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+</main>
+
+
+@*<form asp-controller="User" asp-action="CreateUser" asp-route-returnurl="@ViewData["ReturnUrl"]" enctype="multipart/form-data" method="post">
     <input type="text" name="Id" placeholder="Id" value="tester" />
     <input type="password" name="Password" placeholder="Password" value="Dkagh1234!" />
     <input type="text" name="Name" placeholder="Name" value="tester01" />
     <input type="file" name="file" />
     <button>회원가입</button>
 </form>
-
+*@

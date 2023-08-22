@@ -1,16 +1,77 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
-@{
+﻿<!--start content-->
+<main class="page-content">
+    <!--breadcrumb-->
+    <div class="page-breadcrumb d-none d-sm-flex align-items-center mb-3">
+        <div class="breadcrumb-title pe-3">주문 내역</div>
+    </div>
+    <!--end breadcrumb-->
+    <form action="/Order/Read" method="post">
+        <input type="date" name="start" />
+        <input type="date" name="end" />
+        <a class="btn btn-primary px-4">조회</a>
+    </form>
+    <div class="row">
+        <div class="col-12 col-lg-12 d-flex">
+            <div class="card w-100">
+                <div class="card-body">
+                    <div class="table-responsive">
+                        <table class="table align-middle">
+                            <thead class="table-light">
+                                <tr>
+                                    <th>No.</th>
+                                    <th>주문자</th>
+                                    <th>진행상황</th>
+                                    <th>주문 등록 일자</th>
+                                    <th>주문 마감 일자</th>
+                                </tr>
+                            </thead>
+                            @foreach (Order_Model order in Model)
+                            {
+                                <tbody>
+                                    <tr>
+                                        <td>@order.Id</td>
+                                        <td><a href="/order/detail?id=@order.Id">@order.Customer</a></td>
+                                        <td>@order.Status</td>
+                                        <td>@order.RegisterDate</td>
+                                        <td>@order.Deadline</td>
+
+                                    </tr>
+                                </tbody>
+                            }
+                        </table>
+                    </div>
+                    @if (User.IsInRole("OrderManager"))
+                    {
+                        <div class="text-start">
+                            <a class="btn btn-primary px-4" href="/order/create">주문등록</a>
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+    </div><!--end row-->
+
+</main>
+<!--end page main-->
+
+@*@if (User.IsInRole("OrderManager"))
+{
+    <a href="/order/create">주문등록</a>
 }
+
+<form action="/Order/Read" method="post">
+    <input type="date" name="start" />
+    <input type="date" name="end" />
+    <button>조회</button>
+</form >
+
 @foreach(Order_Model order in Model)
 {
     
     <div>주문자 : @order.Customer</div>
     <div>진행상황 : @order.Status</div>
     <div>주문등록 시간 : @order.RegisterDate</div>
-    <div>주문마감 시간 : @order.EndDate</div>    
+    <div>주문마감 시간 : @order.Deadline</div>    
     <a href="/order/detail?id=@order.Id">@order.Customer 주문수정</a>
     <p></p>
-}
-<a href="/order/create">주문등록</a>
+}*@

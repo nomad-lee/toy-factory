@@ -16,6 +16,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes = true
 build_property.MSBuildProjectDirectory = C:\Users\dd\source\repos\toy-factory\BaseProject
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/dd/source/repos/toy-factory/BaseProject/Views/Ex/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXhcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/dd/source/repos/toy-factory/BaseProject/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -48,6 +52,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWF0ZXJhbFxSZWFkTWF0ZXJhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/dd/source/repos/toy-factory/BaseProject/Views/Materal/StoredMateral.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWF0ZXJhbFxTdG9yZWRNYXRlcmFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/dd/source/repos/toy-factory/BaseProject/Views/MQTT/CMD.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTVFUVFxDTUQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -72,8 +80,16 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxEZXRhaWxQcm9kdWN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/dd/source/repos/toy-factory/BaseProject/Views/Product/ProductionList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxQcm9kdWN0aW9uTGlzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/dd/source/repos/toy-factory/BaseProject/Views/Product/ReadProduct.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxSZWFkUHJvZHVjdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dd/source/repos/toy-factory/BaseProject/Views/Product/StoredListProduct.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxTdG9yZWRMaXN0UHJvZHVjdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/dd/source/repos/toy-factory/BaseProject/Views/Shared/Error.cshtml]
@@ -82,6 +98,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/dd/source/repos/toy-factory/BaseProject/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dd/source/repos/toy-factory/BaseProject/Views/User/AccessDenied.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxBY2Nlc3NEZW5pZWQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/dd/source/repos/toy-factory/BaseProject/Views/User/CreateUser.cshtml]

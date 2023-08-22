@@ -1,4 +1,6 @@
-﻿namespace BaseProject.Models
+﻿using BaseProject.Data.Enums;
+
+namespace BaseProject.Models
 {
     public class Inventory_Edit_Log_Model
     {
@@ -6,6 +8,7 @@
         public int Id { get; set; }
         public int InventoryId { get; set; }
         public Inventory_Model Inventory { get; set; }
+        public NotesCategory note { get; set; }
         public DateTime EditTime { get; set; }
     }
 }

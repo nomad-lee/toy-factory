@@ -3,7 +3,71 @@
 *@
 @{
 }
-<script>
+
+<!--start content-->
+<main class="page-content">
+
+    <div class="row">
+        <div class="col-lg-8 mx-auto">
+            <div class="card">
+                <div class="card-header py-3 bg-transparent">
+                    <h5 class="mb-0">주문 등록</h5>
+                </div>
+                <div class="card-body">
+                    <div class="border p-3 rounded">
+                        <form asp-controller="Order" asp-action="create" method="post" class="row g-3">
+                            <div class="col-12">
+                                <label class="form-label">주문자</label>
+                                <input type="text" class="form-control" name="Customer" placeholder="주문자">
+                            </div>
+                            <div class="col-12">
+                                <label class="form-label">주문 등록 날짜</label>
+                                <input type="date" class="form-control" id="RegisterDate" name="RegisterDate">
+                            </div>
+                            <div class="col-12">
+                                <label class="form-label">주문 마감 날짜</label>
+                                <input type="date" class="form-control" id="EndDate" name="Deadline">
+                            </div>
+                            <p></p>
+                            <div>주문할 상품 목록</div>
+                            <p></p>
+                            @foreach (Product_Model product in Model)
+                            {
+                                <input type="hidden" name="ProductId" value="@product.Id" />
+
+                                <div class="col-12">
+                                    <label class="form-label">@product.Name</label>
+                                </div>
+                                <div class="col-12">
+                                    <label class="form-label">@product.Price</label>
+                                </div>
+                                <div class="col-12">
+                                    <label class="form-label">주문 수량</label>
+                                    <input type="text" class="form-control" name="Quantity" value="0">
+                                </div>
+                            }
+                            <div class="col-12">
+                                <button class="btn btn-primary px-4">주문 등록</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div><!--end row-->
+
+            
+    <script>
+        window.onload = function () {
+        document.getElementById('RegisterDate').value = new Date().toISOString().substring(0, 10);
+        document.getElementById('EndDate').value = new Date().toISOString().substring(0, 10);            
+        }
+    </script>
+</main>
+<!--end page main-->
+
+
+@*<script>
   document.getElementById('RegisterDate').value = new Date().toISOString().substring(0, 10);
   document.getElementById('EndDate').value = new Date().toISOString().substring(0, 10);
 </script>
@@ -24,5 +88,5 @@
         <p></p>
     }
     <button>상품등록</button>
-</form>
+</form>*@
 

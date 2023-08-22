@@ -22,6 +22,11 @@
 
   <ItemGroup>
     <Folder Include="Migrations\" />
+    <Folder Include="Views\Account\" />
+    <Folder Include="wwwroot\img\1\" />
+    <Folder Include="wwwroot\img\2\" />
+    <Folder Include="wwwroot\img\3\" />
+    <Folder Include="wwwroot\plugins\nicescroll\css\" />
   </ItemGroup>
 
 </Project>

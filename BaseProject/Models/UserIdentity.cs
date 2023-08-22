@@ -7,7 +7,7 @@ namespace BaseProject.Models
     public class UserIdentity : IdentityUser
     {
         public string ImgUrl { get; set; }
-        public StatusCategory Status { get; set; }
+        public Defult_StatusCategory Status { get; set; }
         public DateTime CreateTime { get; set; }
     }
 }

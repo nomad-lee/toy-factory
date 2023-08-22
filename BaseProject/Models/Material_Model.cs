@@ -12,7 +12,7 @@ namespace BaseProject.Models
         public string Name { get; set; }
         public int Quantity { get; set; }
         public int Price { get; set; }
-        public StatusCategory Status { get; set; }
+        public Defult_StatusCategory Status { get; set; }
         public string ImgUrl { get; set; }
         public DateTime CreateTime { get; set; }
     }

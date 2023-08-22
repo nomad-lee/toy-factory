@@ -1,0 +1,60 @@
+﻿<!--start content-->
+<main class="page-content">
+
+    <div class="row">
+        <div class="col-12 col-lg-12">
+            <div class="card shadow-sm border-0">
+                <div class="card-body">
+                    <h5 class="mb-0">자재 입고 등록</h5>
+                    <hr>
+                    <div class="card shadow-none border">
+                        <div class="card-body">
+                            <form asp-controller="materal" asp-action="StoredMateral" method="post" enctype="multipart/form-data" class="row g-3">
+                                @foreach(Material_Model material_Model in Model)
+                                { 
+                                @*<@*div class="col-12">
+                                    <div> 등록 이미지 <img src="@Model.ImgUrl" style="width:150px; height:150px" /> </div>
+                                    <input type="file" name="file"></input>
+                                </div>*@
+                                    <input type="hidden" name="MetrailId" value="@material_Model.Id" />
+                                @*<div>
+                                    <label class="form-label">상품 이미지</label>
+                                    <input class="form-control" type="file" name="ImgFile" img src="@Model.ImgUrl" />
+                                </div>*@
+                                <div class="col-12">
+                                    <label class="form-label">자재이름</label>
+                                    <div type="text" class="form-control">@material_Model.Name</div>
+                                </div>
+                                <div class="col-12">
+                                        <label class="form-label">갯수</label>
+                                        <input type="number" name="Quantity" class="form-control"></input>
+                                </div>
+                                @*<div class="text-center align-self-md-center">
+                                    <button type="submit" class="btn btn-primary px-4">수정</button>
+                                    <button type="submit" class="btn btn-primary px-4">삭제</button>
+                                </div>*@
+                                }
+                                <button type="submit" class="btn btn-primary px-4" />자재입고</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div><!--end row-->
+
+</main>
+<!--end page main-->
+
+<form asp-controller="materal" asp-action="StoredMateral"  method="post">
+@foreach(Material_Model material_Model in Model)
+{         
+        <input type="hidden" name="MetrailId"  value="@material_Model.Id" />
+        <div>자재이름 : @material_Model.Name</div>
+
+        <div>갯수 : <input type="number" name="Quantity"/> </div>
+        <div><img src="@material_Model.ImgUrl"/>  </div>   
+        <p></p>
+}
+<input type="submit" value="자재입고">
+</form>  

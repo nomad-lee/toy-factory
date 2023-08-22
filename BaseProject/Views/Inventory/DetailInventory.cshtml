@@ -1,13 +1,68 @@
-﻿@*
+﻿@using BaseProject.Data.Enums;
+@*
     For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 *@
 @{
 }
-<form asp-controller="Inventory" asp-action="update" method="post">
-    <div>재고 이름 : <input type="text" name="Name"  value="@Model.Product.Name" /></div>
+
+<!--start content-->
+<main class="page-content">
+
+    <div class="row">
+        <div class="col-lg-8 mx-auto">
+            <div class="card">
+                <div class="card-header py-3 bg-transparent">
+                    <h5 class="mb-0">재고 수정</h5>
+                </div>
+                <div class="card-body">
+                    <div class="border p-3 rounded">
+                        <form asp-controller="Inventory" asp-action="update" method="post" enctype="multipart/form-data" class="row g-3">
+                            <div class="col-12">
+                                <div> 등록 이미지 <img src=" @Model.Product.ImgUrl" style="width:300px; height:300px" /> </div>
+                                <div>
+                                    <input class="form-control" type="file" name="ImgFile" img src="Model.Product.ImgUrl" />
+                                </div>
+                                <div>
+                                    <label class="form-label">재고명</label>
+                                    <input class="form-control" type="text" name="Name" value="@Model.Product.Name" />
+                                </div>
+                                <div class="col-12">
+                                    <label class="form-label">생산 수량</label>
+                                    <input type="text" class="form-control" name="Count" value="@Model.Count" />
+                                </div>
+                                <div class="col-12">
+                                    <label class="form-label">생산 일자</label>
+                                    <div class="form-control">@Model.CreateTime"</div>
+                                </div>
+                                <div class="col-12">
+                                    <label class="form-label">수정 일자</label>
+                                    <input type="date" class="form-control" name="CreateTime" value="@Model.CreateTime">
+                                </div>
+                                <div class="col-12">
+                                    <label class="form-label">수정 사유</label>
+                                    <select name="note" class="form-control" asp-items="Html.GetEnumSelectList<NotesCategory>()"></select>
+                                </div>
+                                <div><input type="hidden" name="Id" value="@Model.Id" /></div>
+                                <p></p>
+                                <div class="col-12">
+                                    <button input type="submit" class="btn btn-primary px-4">재고 수정</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div><!--end row-->
+
+</main>
+<!--end page main-->
+
+@*<form asp-controller="Inventory" asp-action="update" method="post">
+    <div>재고 이름 : @Model.Product.Name</div>
     <div>생산 갯수 : <input type="text" name="Count"  value="@Model.Count" /></div>
-    <div>생산 날짜 : @Model.CreateTime 수정할 시간 : <input type="date" name="Time" value="@Model.CreateTime"></div>
-    <input type="file" name="ImgFile" />
-    <div><img src="@Model.Product.ImgUrl"></div>
+    <div>생산 날짜 : @Model.CreateTime 수정할 시간 : <input type="date" name="CreateTime" value="@Model.CreateTime"></div>    
+    <div>수정 사유 : <select name="note" class="form-control" asp-items="Html.GetEnumSelectList<NotesCategory>()"> </select></div>
     <div><input type="hidden" name="Id"  value="@Model.Id" /></div>    
-</form>
+    <button>재고 수정</button>
+</form>*@
